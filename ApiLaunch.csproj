@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion />
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C42959E-87FE-4122-82BE-825174849964}</ProjectGuid>
+    <MyType>WindowsForms</MyType>
+    <AssemblyName>ApiLaunchBusiness</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ApiLaunchBusiness.fApi</StartupObject>
+    <AssemblyMajorVersion>1</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>1</AssemblyRevisionNumber>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <RootNamespace>ApiLaunchBusiness</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <StartArguments />
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <StartArguments />
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="fApi.Designer.cs">
+      <DependentUpon>fApi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fApi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fArtigos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fArtigos.Designer.cs">
+      <DependentUpon>fArtigos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fClientes.Designer.cs">
+      <DependentUpon>fClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fFornecedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fFornecedores.Designer.cs">
+      <DependentUpon>fFornecedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDocumentoContabilidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDocumentoContabilidade.Designer.cs">
+      <DependentUpon>fDocumentoContabilidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fGerarDocumentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fGerarDocumentos.Designer.cs">
+      <DependentUpon>fGerarDocumentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDocumentoRecibo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDocumentoRecibo.Designer.cs">
+      <DependentUpon>fDocumentoRecibo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDocumentoComercial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDocumentoComercial.Designer.cs">
+      <DependentUpon>fDocumentoComercial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOutrosExemplos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOutrosExemplos.Designer.cs">
+      <DependentUpon>fOutrosExemplos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPlanoContas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPlanoContas.Designer.cs">
+      <DependentUpon>fPlanoContas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fUnidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fUnidades.Designer.cs">
+      <DependentUpon>fUnidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPrintDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPrintDialog.Designer.cs">
+      <DependentUpon>fPrintDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicas.cs" />
+    <None Include="app.config" />
+    <EmbeddedResource Include="fApi.resX">
+      <DependentUpon>fApi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fArtigos.resx">
+      <DependentUpon>fArtigos.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fClientes.resx">
+      <DependentUpon>fClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDocumentoComercial.resx">
+      <DependentUpon>fDocumentoComercial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDocumentoContabilidade.resx">
+      <DependentUpon>fDocumentoContabilidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDocumentoRecibo.resx">
+      <DependentUpon>fDocumentoRecibo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fFornecedores.resx">
+      <DependentUpon>fFornecedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fGerarDocumentos.resx">
+      <DependentUpon>fGerarDocumentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOutrosExemplos.resx">
+      <DependentUpon>fOutrosExemplos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPlanoContas.resx">
+      <DependentUpon>fPlanoContas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fUnidades.resx">
+      <DependentUpon>fUnidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPrintDialog.resx">
+      <DependentUpon>fPrintDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interops\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{EF53050B-882E-4776-B643-EDA472E8E3F2}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MSXML2">
+      <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBA">
+      <Guid>{000204EF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>9</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
