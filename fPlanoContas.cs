@@ -13,14 +13,16 @@ namespace ApiLaunchBusiness
     public partial class fPlanoContas : Form
     {
 
-        System.Type objTypePlanodeContas;
+        System.Type objType_PlanodeContas;
 
         public fPlanoContas()
         {
             InitializeComponent();
             Load += new EventHandler(fPlanoContas_Load);
             String PlanodeContas = Publicas.dynamicAPI() + ".PlanodeContas";
-            objTypePlanodeContas = System.Type.GetTypeFromProgID(PlanodeContas);
+            objType_PlanodeContas = System.Type.GetTypeFromProgID(PlanodeContas);
+
+            Publicas.listProperties(objType_PlanodeContas, PlanodeContas);
         }
 
         private void fPlanoContas_Load(object sender, EventArgs e)
@@ -68,7 +70,7 @@ namespace ApiLaunchBusiness
                 {
 
                     case Publicas.e_Operacao.Leitura:
-                        oPlano = System.Activator.CreateInstance(objTypePlanodeContas);
+                        oPlano = System.Activator.CreateInstance(objType_PlanodeContas);
 
                         lResult = oPlano.Ler(Text10.Text);
                         if (String.IsNullOrEmpty(oPlano.Conta))
@@ -107,7 +109,7 @@ namespace ApiLaunchBusiness
 
                     //Inserir
                     case Publicas.e_Operacao.Inserir:
-                        oPlano = System.Activator.CreateInstance(objTypePlanodeContas);
+                        oPlano = System.Activator.CreateInstance(objType_PlanodeContas);
 
                         oPlano.Conta = Text10.Text;
                         oPlano.Descricao = Text11.Text;
@@ -163,7 +165,7 @@ namespace ApiLaunchBusiness
                         break;
 
                     case Publicas.e_Operacao.Alterar:
-                        oPlano = System.Activator.CreateInstance(objTypePlanodeContas);
+                        oPlano = System.Activator.CreateInstance(objType_PlanodeContas);
 
                         oPlano.Conta = Text10.Text;
                         oPlano.Descricao = Text11.Text;
@@ -220,7 +222,7 @@ namespace ApiLaunchBusiness
                         break;
 
                     case Publicas.e_Operacao.Remover:
-                        oPlano = System.Activator.CreateInstance(objTypePlanodeContas);                    
+                        oPlano = System.Activator.CreateInstance(objType_PlanodeContas);                    
                         oPlano.Ler(Text10.Text);
 
                         lResult = oPlano.Remover();

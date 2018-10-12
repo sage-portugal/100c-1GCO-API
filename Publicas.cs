@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace ApiLaunchBusiness
@@ -9,9 +10,9 @@ namespace ApiLaunchBusiness
     //
     internal class mApi
     {
-
-        private static String BaseBusiness = Publicas.dynamicAPI() + Publicas.dynamicAPIBase();
-        private static System.Type objType_my_api = System.Type.GetTypeFromProgID(BaseBusiness);
+        
+        private static String Base = Publicas.dynamicAPI() + Publicas.dynamicAPIBase();
+        private static System.Type objType_my_api = System.Type.GetTypeFromProgID(Base);
         public static dynamic my_api = System.Activator.CreateInstance(objType_my_api);
     }
 
@@ -116,6 +117,43 @@ namespace ApiLaunchBusiness
                 return false;
             }
             
+        }
+
+        /**
+         *
+         *List all Object Properties
+         * 
+         */
+        public static void listProperties(System.Type t, String name)
+        {
+            const String myPointer = " -> ";
+            const String myObject = "System.Windows.Forms.UnsafeNativeMethods+IDispatch";
+            //
+            String myProperty = "";
+            String myName = "";
+            String spacer = new String('-', 50);
+
+            Console.WriteLine("");
+            Console.WriteLine(new String('=', 50));
+            Console.WriteLine("Object: " + name);
+            Console.WriteLine(new String('=', 50));
+
+            dynamic o = System.Activator.CreateInstance(t);
+
+            foreach (PropertyDescriptor prop in TypeDescriptor.GetProperties(o))
+            {
+                myProperty = prop.PropertyType.ToString();
+                myName = (prop.Name + " " + spacer).Substring(0,50);
+
+                if (myProperty.Equals(myObject)){
+                    myProperty = "Object Type" + myPointer + prop.Name;
+                }
+
+                Console.WriteLine(myName + myPointer + myProperty);
+            }
+
+
+
         }
 
 

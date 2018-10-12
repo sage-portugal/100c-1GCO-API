@@ -46,6 +46,15 @@ namespace ApiLaunchBusiness
             objType_Bancos = System.Type.GetTypeFromProgID(Bancos);
             objType_DocumentoContabilistico = System.Type.GetTypeFromProgID(DocumentoContabilistico);
 
+
+            Publicas.listProperties(objType_DocumentoComercial, DocumentoComercial);
+            Publicas.listProperties(objType_DocumentosGcLin, DocumentosGcLin);
+            Publicas.listProperties(objType_LotesLinha, LotesLinha);
+            Publicas.listProperties(objType_NumSerieLinha, NumSerieLinha);
+            Publicas.listProperties(objType_Bancos, Bancos);
+            Publicas.listProperties(objType_DocumentoContabilistico, DocumentoContabilistico);
+
+
             if (Publicas.dynamicAPIEnum().Equals(Publicas.e_Api.SageBGCOApi10))
             {
                 cmdImprimir.Enabled = false;

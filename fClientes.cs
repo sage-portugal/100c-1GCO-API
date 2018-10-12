@@ -21,6 +21,9 @@ namespace ApiLaunchBusiness
             Load += new EventHandler(fClientes_Load);
             String Clientes = Publicas.dynamicAPI() + ".Clientes";
             objType_Clientes = System.Type.GetTypeFromProgID(Clientes);
+
+            Publicas.listProperties(objType_Clientes, Clientes);
+
         }
 
 

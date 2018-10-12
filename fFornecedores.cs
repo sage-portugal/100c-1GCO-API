@@ -23,6 +23,8 @@ namespace ApiLaunchBusiness
             Load += new EventHandler(fFornecedores_Load);
             String Fornecedores = Publicas.dynamicAPI() + ".Fornecedores";
             objType_Fornecedores = System.Type.GetTypeFromProgID(Fornecedores);
+
+            Publicas.listProperties(objType_Fornecedores, Fornecedores);
         }
 
         private void fFornecedores_Load(object sender, EventArgs e)

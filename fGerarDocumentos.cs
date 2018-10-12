@@ -45,15 +45,15 @@ namespace ApiLaunchBusiness
             String Bancos = Publicas.dynamicAPI() + ".Bancos";
             String Clientes = Publicas.dynamicAPI() + ".Clientes";
             String Fornecedores = Publicas.dynamicAPI() + ".Fornecedores";
-            String Artigo = Publicas.dynamicAPI() + ".Artigo";
+            String Artigo = Publicas.dynamicAPI() + ".Artigos";
 
-            System.Type objType_DocumentoComercial = System.Type.GetTypeFromProgID(DocumentoComercial);
-            System.Type objType_DocumentosGcLin = System.Type.GetTypeFromProgID(DocumentosGcLin);
-            System.Type objType_LotesLinha = System.Type.GetTypeFromProgID(LotesLinha);
-            System.Type objType_NumSerieLinha = System.Type.GetTypeFromProgID(NumSerieLinha);
-            System.Type objType_Clientes = System.Type.GetTypeFromProgID(Clientes);
-            System.Type objType_Fornecedores = System.Type.GetTypeFromProgID(Fornecedores);
-            System.Type objType_Artigos = System.Type.GetTypeFromProgID(Artigo);
+            objType_DocumentoComercial = System.Type.GetTypeFromProgID(DocumentoComercial);
+            objType_DocumentosGcLin = System.Type.GetTypeFromProgID(DocumentosGcLin);
+            objType_LotesLinha = System.Type.GetTypeFromProgID(LotesLinha);
+            objType_NumSerieLinha = System.Type.GetTypeFromProgID(NumSerieLinha);
+            objType_Clientes = System.Type.GetTypeFromProgID(Clientes);
+            objType_Fornecedores = System.Type.GetTypeFromProgID(Fornecedores);
+            objType_Artigos = System.Type.GetTypeFromProgID(Artigo);
         }
 
 

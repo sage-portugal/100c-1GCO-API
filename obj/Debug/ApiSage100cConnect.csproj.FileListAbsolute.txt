@@ -1,0 +1,14 @@
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\ApiSage100cConnect\obj\Debug\ApiSage100cConnect.csprojResolveAssemblyReference.cache
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\ApiSage100cConnect\obj\Debug\ApiSage100cConnect.csproj.CoreCompileInputs.cache
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\ApiSage100cConnect\bin\Debug\ApiSage100cConnect.exe.config
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\ApiSage100cConnect\bin\Debug\ApiSage100cConnect.exe
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\ApiSage100cConnect\bin\Debug\ApiSage100cConnect.pdb
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\ApiSage100cConnect\obj\Debug\ApiSage100cConnect.exe
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\ApiSage100cConnect\obj\Debug\ApiSage100cConnect.pdb
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\obj\Debug\ApiSage100cConnect.csprojResolveAssemblyReference.cache
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\obj\Debug\ApiSage100cConnect.csproj.CoreCompileInputs.cache
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\obj\Debug\ApiSage100cConnect.exe
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\obj\Debug\ApiSage100cConnect.pdb
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\bin\Debug\ApiSage100cConnect.exe.config
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\bin\Debug\ApiSage100cConnect.exe
+C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cConnectCSharp\bin\Debug\ApiSage100cConnect.pdb

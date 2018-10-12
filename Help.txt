@@ -1,0 +1,27 @@
+No Ficheiro de configuração ApiService.Ini com o slash “\”.
+
+Exemplo:
+
+PercIni = C:\ProgramData\Sage\2070\100C\
+PercLog = C:\Temp\
+PercXml = C:\Sage Data\Sage 100c\Documento\
+Login   = API
+Pwd     = API
+Sigla   = DEMO_1GCO
+
+Os ficheiros em XML devem ser colocados no diretório PercXml, não importa o nome do ficheiro a aplicação abre o XML e de acordo com o seu conteúdo faz a integração pretendida.
+
+O funcionamento deste integrador tem o seguinte funcionamento:
+
+1.	Quando for invocado, vai verificar quantos ficheiros XML tem para integrar, exemplo 50.
+2.	Efetua  integração desses 50 ficheiros.
+3.	Quando terminar vai verificar se entretanto foram colocado mais ficheiros para integração
+4.	Caso sim volta ao ponto 1)
+5.	Caso não termina a sua execução.
+
+Ao integrar podem acontecer 3 situações:
+
+1.	O ficheiro é integrado com sucesso, e é eliminado.
+2.	O ficheiro tem um erro ao integrar:
+a.	O ficheiro é preservado e renomeado para *.err 
+b.	É gerado um novo ficheiro * .error.txt com a descrição do erro.

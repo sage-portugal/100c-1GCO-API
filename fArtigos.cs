@@ -8,7 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-
+using ADODB;
+using System.Reflection;
+using System.Windows.Forms.VisualStyles;
 
 namespace ApiLaunchBusiness
 {
@@ -21,9 +23,17 @@ namespace ApiLaunchBusiness
         {
             InitializeComponent();
             Load += new EventHandler(fArtigos_Load);
+
             String Artigos = Publicas.dynamicAPI() + ".Artigos";
             objType_Artigos = System.Type.GetTypeFromProgID(Artigos);
+            
+            Publicas.listProperties(objType_Artigos, Artigos);
+
+            RadioButtonState radioButtonState;
+
         }
+
+
 
         private void fArtigos_Load(object sender, EventArgs e)
         {
@@ -66,6 +76,23 @@ namespace ApiLaunchBusiness
             cmbSubFamilia.Items.Insert(2, "Industrial");
             cmbSubFamilia.SelectedIndex = 2;
 
+            cmbLotes.Sorted = true;
+            cmbLotes.Items.Insert(0, "LT0");
+            cmbLotes.Items.Insert(1, "LT1");
+            cmbLotes.Items.Insert(2, "LT2");
+            cmbLotes.Items.Insert(3, "LT3");
+            cmbLotes.Items.Insert(4, "LT4");
+            cmbLotes.SelectedIndex = 1;
+
+
+            cmbNS.Sorted = true;
+            cmbNS.Items.Insert(0, "NS0");
+            cmbNS.Items.Insert(1, "NS1");
+            cmbNS.Items.Insert(2, "NS2");
+            cmbNS.Items.Insert(3, "NS3");
+            cmbNS.Items.Insert(4, "NS4");
+            cmbNS.SelectedIndex = 1;
+
             txtObservacoes.Text = "Fixação Horizontal";
             
         }
@@ -88,6 +115,7 @@ namespace ApiLaunchBusiness
             int resultIndex = -1;
             //
             decimal numeroDecimal;
+
 
             try
             {
@@ -207,6 +235,18 @@ namespace ApiLaunchBusiness
                         oArtigo.Grupo = cmbGrupo.Text;
                         oArtigo.Famili = cmbFamilia.Text;
                         oArtigo.SubFam = cmbSubFamilia.Text;
+
+                        if (rbNS.Checked)
+                        {
+                            oArtigo.ControloNumSerie = -1;
+                            oArtigo.CategoriaNumSerie = cmbNS.Text;
+                        }
+
+                        if (rbLotes.Checked)
+                        {
+                            oArtigo.ControloLotes = -1;
+                            oArtigo.CategoriaLotes = cmbLotes.Text;
+                        }
 
                         lResult = oArtigo.Validar();
                         if (lResult != (int)Publicas.e_Result.Success)

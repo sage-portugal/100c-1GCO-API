@@ -10,7 +10,7 @@ using Microsoft.VisualBasic;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.Globalization;
-
+using Sage1GCOUtil10;
 
 namespace ApiLaunchBusiness
 {
@@ -488,11 +488,11 @@ namespace ApiLaunchBusiness
                             objDocumento.cab.Data = DateTime.Today.ToString("d"); 
                             objDocumento.cab.Sector = "ANS"; 
                             objDocumento.cab.Moeda = "EUR";
-                            objDocumento.cab.TipoTerceiro = ((short) 3); 
+                            objDocumento.cab.TipoTerceiro = ((short) etb_TERCEIRO.Cliente); 
                             objDocumento.cab.Terceiro = "AR2"; 
                             objDocumento.cab.DescontoCabecalho = 0; 
                             objDocumento.cab.RegimeIva = "NAC";  							 
-                            objDocumento.cab.IVAIncluido = ((short) 0); 
+                            objDocumento.cab.IVAIncluido = ((short) 0);
 
                             //   * ----------------------------------------------------------------------------------------------- 
                             //   * Preencher o TIPO DE PREÇO: 

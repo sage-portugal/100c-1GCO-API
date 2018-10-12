@@ -26,13 +26,18 @@ namespace ApiLaunchBusiness
             InitializeComponent();
             Load += new EventHandler(fRecibos_Load);
 
+            String DocumentoFinanceiro = Publicas.dynamicAPI() + ".DocumentoFinanceiro";
             String DocumentosCcLin = Publicas.dynamicAPI() + ".DocumentosCcLin";
             String DocumentoContabilistico = Publicas.dynamicAPI() + ".DocumentoContabilistico";
-            String DocumentoFinanceiro = Publicas.dynamicAPI() + ".DocumentoFinanceiro";
 
-            objType_DocumentosCcLin = System.Type.GetTypeFromProgID(DocumentosCcLin);
-            objType_DocumentoContabilistico = System.Type.GetTypeFromProgID(DocumentoContabilistico);
             objType_DocumentoFinanceiro = System.Type.GetTypeFromProgID(DocumentoFinanceiro);
+            objType_DocumentosCcLin = System.Type.GetTypeFromProgID(DocumentosCcLin);
+            objType_DocumentoContabilistico = System.Type.GetTypeFromProgID(DocumentoContabilistico);        
+
+            Publicas.listProperties(objType_DocumentoFinanceiro, DocumentoFinanceiro);
+            Publicas.listProperties(objType_DocumentosCcLin, DocumentosCcLin);
+            Publicas.listProperties(objType_DocumentoContabilistico, DocumentoContabilistico);
+
         }
 
         private void fRecibos_Load(object sender, EventArgs e)
