@@ -21,6 +21,7 @@ namespace ApiLaunchBusiness
         System.Type objType_NumSerieLinha;
         System.Type objType_Bancos;
         System.Type objType_DocumentoContabilistico;
+        System.Type objType_CamposLivresDoc;
 
         private bool isInitializingComponent;
 
@@ -38,6 +39,7 @@ namespace ApiLaunchBusiness
             String NumSerieLinha = Publicas.dynamicAPI() + ".NumSerieLinha";
             String Bancos = Publicas.dynamicAPI() + ".Bancos";
             String DocumentoContabilistico = Publicas.dynamicAPI() + ".DocumentoContabilistico";
+            String CamposLivresDoc = Publicas.dynamicAPI() + ".CamposLivresDocumentos";
 
             objType_DocumentoComercial = System.Type.GetTypeFromProgID(DocumentoComercial);
             objType_DocumentosGcLin = System.Type.GetTypeFromProgID(DocumentosGcLin);
@@ -45,7 +47,7 @@ namespace ApiLaunchBusiness
             objType_NumSerieLinha = System.Type.GetTypeFromProgID(NumSerieLinha);
             objType_Bancos = System.Type.GetTypeFromProgID(Bancos);
             objType_DocumentoContabilistico = System.Type.GetTypeFromProgID(DocumentoContabilistico);
-
+            objType_CamposLivresDoc = System.Type.GetTypeFromProgID(CamposLivresDoc);
 
             Publicas.listProperties(objType_DocumentoComercial, DocumentoComercial);
             Publicas.listProperties(objType_DocumentosGcLin, DocumentosGcLin);
@@ -186,6 +188,7 @@ namespace ApiLaunchBusiness
                 try
                 {
                     objDocumento = null;
+                
                     TipoDoc = txtTpDoc.Text;
                     Serie = Convert.ToInt32(Double.Parse(txtSerie.Text));
                     Numdoc = Convert.ToInt32(Double.Parse(txtNumero.Text));
@@ -243,6 +246,7 @@ namespace ApiLaunchBusiness
             dynamic objNumser = null;
             dynamic objContabDoc = null;
             dynamic objBanco = null;
+            dynamic objCamposLivres = null;
 
             try
             {
@@ -267,6 +271,9 @@ namespace ApiLaunchBusiness
 
                 // Objecto Bancos para Vendas a Dinheiro
                 objBanco = null;
+
+                // objecto para Campos Livre
+                objCamposLivres = null;
 
                 int lResult = 0;
                 int lResultContab = 0;
@@ -738,14 +745,15 @@ namespace ApiLaunchBusiness
                     //   * IMPORTANTE
                     //   * -----------------------------------------------------------------------------------------------
                     //   * Se deseja utilizar os Campos Livres dos Documentos,
-                    //   * deve utilizar o segmento de código comentado que se segue :
+                    //   * deve utilizar o segmento de código que se segue :
                     //   * -----------------------------------------------------------------------------------------------
                     //   *
-                    //    If objDocumento.Mycamposlivres Is Nothing Then
-                    //        Set objDocumento.Mycamposlivres = New CamposLivresDocumentos
-                    //    End If
-                    //    objDocumento.Mycamposlivres.Cl01 = "Expedição"
-                    //    objDocumento.Mycamposlivres.Cl02 = "123"
+                    objDocumento.Mycamposlivres = System.Activator.CreateInstance(objType_CamposLivresDoc);
+                    objDocumento.Mycamposlivres.Cl01 = "Expedição";
+                    objDocumento.Mycamposlivres.Cl02 = "-1";
+                    objDocumento.Mycamposlivres.Cl03 = "Cliente Espeial";
+                    objDocumento.Mycamposlivres.Cl04 = "500";
+                    objDocumento.Mycamposlivres.Cl05 = "XPTO Express";
                     //   * -----------------------------------------------------------------------------------------------
                 }
 

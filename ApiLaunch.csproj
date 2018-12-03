@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9C42959E-87FE-4122-82BE-825174849964}</ProjectGuid>
     <MyType>WindowsForms</MyType>
-    <AssemblyName>ApiLaunchBusiness</AssemblyName>
+    <AssemblyName>ApiLaunch</AssemblyName>
     <OutputType>WinExe</OutputType>
     <StartupObject>ApiLaunchBusiness.fApi</StartupObject>
     <AssemblyMajorVersion>1</AssemblyMajorVersion>
@@ -16,7 +16,7 @@
     <AssemblyRevisionNumber>1</AssemblyRevisionNumber>
     <ApplicationIcon>
     </ApplicationIcon>
-    <RootNamespace>ApiLaunchBusiness</RootNamespace>
+    <RootNamespace>ApiLaunch</RootNamespace>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
