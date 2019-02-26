@@ -26,3 +26,31 @@ C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cL
 C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
 C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.exe
 C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.pdb
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\bin\ApiLaunch.exe.config
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\bin\ApiLaunch.exe
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\bin\ApiLaunch.pdb
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csprojAssemblyReference.cache
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.MSXML2.dll
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.Sage1GCOUtil10.dll
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.Scripting.dll
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.VBA.dll
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.XtremeCommandBars.dll
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.XtremePropertyGrid.dll
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.exe
+Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.pdb
