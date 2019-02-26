@@ -19,11 +19,11 @@ namespace ApiLaunchBusiness
         {
             InitializeComponent();
             Load += new EventHandler(fUnidades_Load);
-            String Unidades = Publicas.dynamicAPI() + ".Unidades";
-            objType_Unidades = System.Type.GetTypeFromProgID(Unidades);
+            String Unidades = Publicas.dynamicSageApiName() + ".Unidades";
+            objType_Unidades = System.Type.GetTypeFromProgID(Unidades );
 
 
-            Publicas.listProperties(objType_Unidades, Unidades);
+            Publicas.listProperties(objType_Unidades, Unidades, "Ficha de Unidades");
         }
 
 

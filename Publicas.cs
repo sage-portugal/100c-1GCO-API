@@ -11,7 +11,7 @@ namespace ApiLaunchBusiness
     internal class mApi
     {
         
-        private static String Base = Publicas.dynamicAPI() + Publicas.dynamicAPIBase();
+        private static String Base = Publicas.dynamicSageApiName() + Publicas.dynamicAPIBase();
         private static System.Type objType_my_api = System.Type.GetTypeFromProgID(Base);
         public static dynamic my_api = System.Activator.CreateInstance(objType_my_api);
     }
@@ -21,6 +21,7 @@ namespace ApiLaunchBusiness
 
         public static string configApiName;
         public static string configApiBase;
+        public static string configDataName;
         public static e_Api configApiEnum;
 
         // Dados para instanciar Api
@@ -95,11 +96,13 @@ namespace ApiLaunchBusiness
                                     case "SageBGCOApi10":
                                         Publicas.configApiEnum = e_Api.SageBGCOApi10;
                                         Publicas.configApiBase = ".BaseBusiness";
+                                        Publicas.configDataName = "SageBGCOData10";
                                         break;
 
                                     case "Sage1GCOApi10":
                                         Publicas.configApiEnum = e_Api.Sage1GCOApi10;
                                         Publicas.configApiBase = ".Base100C";
+                                        Publicas.configDataName = "Sage1GCOData10";
                                         break;
                                 }
                                 break;
@@ -121,29 +124,32 @@ namespace ApiLaunchBusiness
 
         /**
          *
-         *List all Object Properties
+         * https://stackoverflow.com/questions/6445045/c-sharp-getting-all-the-properties-of-an-object
+         * 
+         * List all Object Properties
          * 
          */
-        public static void listProperties(System.Type t, String name)
+        public static void listProperties(System.Type t, String name, String purpose)
         {
             const String myPointer = " -> ";
             const String myObject = "System.Windows.Forms.UnsafeNativeMethods+IDispatch";
+            const int line = 75;
             //
             String myProperty = "";
             String myName = "";
-            String spacer = new String('-', 50);
+            String spacer = new String('-', line);
 
             Console.WriteLine("");
-            Console.WriteLine(new String('=', 50));
-            Console.WriteLine("Object: " + name);
-            Console.WriteLine(new String('=', 50));
+            Console.WriteLine(new String('=', line));
+            Console.WriteLine("Object: " + name + myPointer + purpose);
+            Console.WriteLine(new String('=', line));
 
             dynamic o = System.Activator.CreateInstance(t);
 
             foreach (PropertyDescriptor prop in TypeDescriptor.GetProperties(o))
             {
                 myProperty = prop.PropertyType.ToString();
-                myName = (prop.Name + " " + spacer).Substring(0,50);
+                myName = (prop.Name + " " + spacer).Substring(0,75);
 
                 if (myProperty.Equals(myObject)){
                     myProperty = "Object Type" + myPointer + prop.Name;
@@ -158,9 +164,14 @@ namespace ApiLaunchBusiness
 
 
         // retorna API a instanciar
-        public static String dynamicAPI()
+        public static String dynamicSageApiName()
         {
             return Publicas.configApiName;
+        }
+
+        public static String dynamicSageDataName()
+        {
+            return Publicas.configDataName;
         }
 
         public static e_Api dynamicAPIEnum()

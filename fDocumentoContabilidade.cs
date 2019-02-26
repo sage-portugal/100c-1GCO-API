@@ -23,8 +23,8 @@ namespace ApiLaunchBusiness
             Load += new EventHandler(fDocumentoContabilidade_Load);
             ReLoadForm(false);
 
-            String MovimentosCtb2 = Publicas.dynamicAPI() + ".MovimentosCtb2";
-            String DocumentoContabilistico = Publicas.dynamicAPI() + ".DocumentoContabilistico";
+            String MovimentosCtb2 = Publicas.dynamicSageApiName() + ".MovimentosCtb2";
+            String DocumentoContabilistico = Publicas.dynamicSageApiName() + ".DocumentoContabilistico";
 
             objType_MovimentosCtb2 = System.Type.GetTypeFromProgID(MovimentosCtb2);
             objType_DocumentoContabilistico = System.Type.GetTypeFromProgID(DocumentoContabilistico);

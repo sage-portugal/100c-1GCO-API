@@ -21,10 +21,10 @@ namespace ApiLaunchBusiness
         {
             InitializeComponent();
             Load += new EventHandler(fFornecedores_Load);
-            String Fornecedores = Publicas.dynamicAPI() + ".Fornecedores";
+            String Fornecedores = Publicas.dynamicSageApiName() + ".Fornecedores";
             objType_Fornecedores = System.Type.GetTypeFromProgID(Fornecedores);
 
-            Publicas.listProperties(objType_Fornecedores, Fornecedores);
+            Publicas.listProperties(objType_Fornecedores, Fornecedores, "Ficha de Fornecedores");
         }
 
         private void fFornecedores_Load(object sender, EventArgs e)

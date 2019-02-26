@@ -28,12 +28,12 @@ namespace ApiLaunchBusiness
             InitializeComponent();
             Load += new EventHandler(fOutrosExemplos_Load);
 
-            String DocumentoComercial = Publicas.dynamicAPI() + ".DocumentoComercial";
-            String DocumentoFinanceiro = Publicas.dynamicAPI() + ".DocumentoFinanceiro";
-            String MovimentosCtb2 = Publicas.dynamicAPI() + ".MovimentosCtb2";
-            String DocumentoContabilistico = Publicas.dynamicAPI() + ".DocumentoContabilistico";
-            String DocumentosGcLin = Publicas.dynamicAPI() + ".DocumentosGcLin";
-            String LotesLinha = Publicas.dynamicAPI() + ".LotesLinha";
+            String DocumentoComercial = Publicas.dynamicSageApiName() + ".DocumentoComercial";
+            String DocumentoFinanceiro = Publicas.dynamicSageApiName() + ".DocumentoFinanceiro";
+            String MovimentosCtb2 = Publicas.dynamicSageApiName() + ".MovimentosCtb2";
+            String DocumentoContabilistico = Publicas.dynamicSageApiName() + ".DocumentoContabilistico";
+            String DocumentosGcLin = Publicas.dynamicSageApiName() + ".DocumentosGcLin";
+            String LotesLinha = Publicas.dynamicSageApiName() + ".LotesLinha";
 
             objType_DocumentoComercial = System.Type.GetTypeFromProgID(DocumentoComercial);
             objType_DocumentoFinanceiro = System.Type.GetTypeFromProgID(DocumentoFinanceiro);

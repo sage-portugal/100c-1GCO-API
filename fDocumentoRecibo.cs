@@ -26,24 +26,22 @@ namespace ApiLaunchBusiness
             InitializeComponent();
             Load += new EventHandler(fRecibos_Load);
 
-            String DocumentoFinanceiro = Publicas.dynamicAPI() + ".DocumentoFinanceiro";
-            String DocumentosCcLin = Publicas.dynamicAPI() + ".DocumentosCcLin";
-            String DocumentoContabilistico = Publicas.dynamicAPI() + ".DocumentoContabilistico";
+            String DocumentoFinanceiro = Publicas.dynamicSageApiName() + ".DocumentoFinanceiro";
+            String DocumentosCcLin = Publicas.dynamicSageApiName() + ".DocumentosCcLin";
+            String DocumentoContabilistico = Publicas.dynamicSageApiName() + ".DocumentoContabilistico";
 
             objType_DocumentoFinanceiro = System.Type.GetTypeFromProgID(DocumentoFinanceiro);
             objType_DocumentosCcLin = System.Type.GetTypeFromProgID(DocumentosCcLin);
             objType_DocumentoContabilistico = System.Type.GetTypeFromProgID(DocumentoContabilistico);        
 
-            Publicas.listProperties(objType_DocumentoFinanceiro, DocumentoFinanceiro);
-            Publicas.listProperties(objType_DocumentosCcLin, DocumentosCcLin);
-            Publicas.listProperties(objType_DocumentoContabilistico, DocumentoContabilistico);
+            Publicas.listProperties(objType_DocumentoFinanceiro, DocumentoFinanceiro, "Documento Financeiro");
+            Publicas.listProperties(objType_DocumentosCcLin, DocumentosCcLin, "Documento Financeiro Linhas");
+            Publicas.listProperties(objType_DocumentoContabilistico, DocumentoContabilistico, "Documento Contabilistico");
 
         }
 
         private void fRecibos_Load(object sender, EventArgs e)
         {
-
-
             //   -----------------------------------------------------------------------------
             // e_Entidade.Recibo
             Text501.Text = "REC";

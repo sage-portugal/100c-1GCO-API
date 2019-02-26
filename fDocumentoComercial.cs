@@ -23,6 +23,9 @@ namespace ApiLaunchBusiness
         System.Type objType_DocumentoContabilistico;
         System.Type objType_CamposLivresDoc;
 
+        System.Type objType_DocumentoComercialCab;
+
+        
         private bool isInitializingComponent;
 
         public fDocumentoComercial()
@@ -33,13 +36,16 @@ namespace ApiLaunchBusiness
             Load += new EventHandler(fDocumentoComercial_Load);
             ReLoadForm(false);
 
-            String DocumentoComercial = Publicas.dynamicAPI() + ".DocumentoComercial";
-            String DocumentosGcLin = Publicas.dynamicAPI() + ".DocumentosGcLin";
-            String LotesLinha = Publicas.dynamicAPI() + ".LotesLinha";
-            String NumSerieLinha = Publicas.dynamicAPI() + ".NumSerieLinha";
-            String Bancos = Publicas.dynamicAPI() + ".Bancos";
-            String DocumentoContabilistico = Publicas.dynamicAPI() + ".DocumentoContabilistico";
-            String CamposLivresDoc = Publicas.dynamicAPI() + ".CamposLivresDocumentos";
+            String DocumentoComercial = Publicas.dynamicSageApiName() + ".DocumentoComercial";
+            String DocumentosGcLin = Publicas.dynamicSageApiName() + ".DocumentosGcLin";
+            String LotesLinha = Publicas.dynamicSageApiName() + ".LotesLinha";
+            String NumSerieLinha = Publicas.dynamicSageApiName() + ".NumSerieLinha";
+            String Bancos = Publicas.dynamicSageApiName() + ".Bancos";
+            String DocumentoContabilistico = Publicas.dynamicSageApiName() + ".DocumentoContabilistico";
+            String CamposLivresDoc = Publicas.dynamicSageApiName() + ".CamposLivresDocumentos";
+
+            String DocumentoComercialCab = Publicas.dynamicSageDataName() + ".DLDocumentosGcCab";
+
 
             objType_DocumentoComercial = System.Type.GetTypeFromProgID(DocumentoComercial);
             objType_DocumentosGcLin = System.Type.GetTypeFromProgID(DocumentosGcLin);
@@ -49,13 +55,15 @@ namespace ApiLaunchBusiness
             objType_DocumentoContabilistico = System.Type.GetTypeFromProgID(DocumentoContabilistico);
             objType_CamposLivresDoc = System.Type.GetTypeFromProgID(CamposLivresDoc);
 
-            Publicas.listProperties(objType_DocumentoComercial, DocumentoComercial);
-            Publicas.listProperties(objType_DocumentosGcLin, DocumentosGcLin);
-            Publicas.listProperties(objType_LotesLinha, LotesLinha);
-            Publicas.listProperties(objType_NumSerieLinha, NumSerieLinha);
-            Publicas.listProperties(objType_Bancos, Bancos);
-            Publicas.listProperties(objType_DocumentoContabilistico, DocumentoContabilistico);
+            objType_DocumentoComercialCab = System.Type.GetTypeFromProgID(DocumentoComercialCab);
 
+            Publicas.listProperties(objType_DocumentoComercial, DocumentoComercial, "Documento Comercial");
+            Publicas.listProperties(objType_DocumentoComercialCab, DocumentoComercialCab, "Documento Comercial Cabeçalho");
+            Publicas.listProperties(objType_DocumentosGcLin, DocumentosGcLin, "Documento Comercial Linhas");
+            Publicas.listProperties(objType_LotesLinha, LotesLinha, "Linha de Lotes");
+            Publicas.listProperties(objType_NumSerieLinha, NumSerieLinha, "Linha de Numeros de Série");
+            Publicas.listProperties(objType_Bancos, Bancos, "Banco do Documento");
+            Publicas.listProperties(objType_DocumentoContabilistico, DocumentoContabilistico, "Documento Contabilistico");
 
             if (Publicas.dynamicAPIEnum().Equals(Publicas.e_Api.SageBGCOApi10))
             {

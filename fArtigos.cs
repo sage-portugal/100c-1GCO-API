@@ -24,10 +24,10 @@ namespace ApiLaunchBusiness
             InitializeComponent();
             Load += new EventHandler(fArtigos_Load);
 
-            String Artigos = Publicas.dynamicAPI() + ".Artigos";
+            String Artigos = Publicas.dynamicSageApiName() + ".Artigos";
             objType_Artigos = System.Type.GetTypeFromProgID(Artigos);
             
-            Publicas.listProperties(objType_Artigos, Artigos);
+            Publicas.listProperties(objType_Artigos, Artigos, "Ficha de Artigos");
 
             RadioButtonState radioButtonState;
 

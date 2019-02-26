@@ -19,10 +19,10 @@ namespace ApiLaunchBusiness
         {
             InitializeComponent();
             Load += new EventHandler(fClientes_Load);
-            String Clientes = Publicas.dynamicAPI() + ".Clientes";
+            String Clientes = Publicas.dynamicSageApiName() + ".Clientes";
             objType_Clientes = System.Type.GetTypeFromProgID(Clientes);
 
-            Publicas.listProperties(objType_Clientes, Clientes);
+            Publicas.listProperties(objType_Clientes, Clientes, "Ficha de Clientes");
 
         }
 

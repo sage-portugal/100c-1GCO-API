@@ -19,10 +19,10 @@ namespace ApiLaunchBusiness
         {
             InitializeComponent();
             Load += new EventHandler(fPlanoContas_Load);
-            String PlanodeContas = Publicas.dynamicAPI() + ".PlanodeContas";
+            String PlanodeContas = Publicas.dynamicSageApiName() + ".PlanodeContas";
             objType_PlanodeContas = System.Type.GetTypeFromProgID(PlanodeContas);
 
-            Publicas.listProperties(objType_PlanodeContas, PlanodeContas);
+            Publicas.listProperties(objType_PlanodeContas, PlanodeContas, "Plano de Contas");
         }
 
         private void fPlanoContas_Load(object sender, EventArgs e)
