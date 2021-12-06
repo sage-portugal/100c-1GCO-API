@@ -54,7 +54,7 @@ namespace ApiLaunchBusiness
                         result.Password = "API";
                         break;
 
-                    case e_Api.Sage1GCOApi10:
+                    case e_Api.Sage1GCOApi30:
 
                         result.PercursoBusinessWin = "C:\\ProgramData\\Sage\\2070\\100C";
                         result.FicheiroLogErros = "C:\\Temp";
@@ -99,10 +99,10 @@ namespace ApiLaunchBusiness
                                         Publicas.configDataName = "SageBGCOData10";
                                         break;
 
-                                    case "Sage1GCOApi10":
-                                        Publicas.configApiEnum = e_Api.Sage1GCOApi10;
+                                    case "Sage1GCOApi30":
+                                        Publicas.configApiEnum = e_Api.Sage1GCOApi30;
                                         Publicas.configApiBase = ".Base100C";
-                                        Publicas.configDataName = "Sage1GCOData10";
+                                        Publicas.configDataName = "Sage1GCOData30";
                                         break;
                                 }
                                 break;
@@ -189,7 +189,7 @@ namespace ApiLaunchBusiness
         internal enum e_Api
         {
             SageBGCOApi10 = 0,
-            Sage1GCOApi10 = 1
+            Sage1GCOApi30 = 1
         }
         
 

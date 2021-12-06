@@ -169,6 +169,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.VisualBasic.Compatibility" />
@@ -182,15 +185,6 @@
     <Folder Include="Interops\" />
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="ADODB">
-      <Guid>{EF53050B-882E-4776-B643-EDA472E8E3F2}</Guid>
-      <VersionMajor>2</VersionMajor>
-      <VersionMinor>7</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>primary</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
     <COMReference Include="MSXML2">
       <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
       <VersionMajor>4</VersionMajor>
@@ -200,10 +194,10 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-    <COMReference Include="Sage1GCOUtil10">
-      <Guid>{81BC6008-129D-48DC-8401-8F468D14835B}</Guid>
+    <COMReference Include="Sage1GCOUtil30">
+      <Guid>{449939DE-2819-49A6-B747-31421CB7BE5F}</Guid>
       <VersionMajor>1</VersionMajor>
-      <VersionMinor>6</VersionMinor>
+      <VersionMinor>7</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
@@ -238,8 +232,8 @@
     </COMReference>
     <COMReference Include="XtremeCommandBars">
       <Guid>{555E8FCC-830E-45CC-AF00-A012D5AE7451}</Guid>
-      <VersionMajor>17</VersionMajor>
-      <VersionMinor>3</VersionMinor>
+      <VersionMajor>20</VersionMajor>
+      <VersionMinor>1</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
@@ -247,8 +241,8 @@
     </COMReference>
     <COMReference Include="XtremePropertyGrid">
       <Guid>{5B44EC52-B95B-45CF-98FF-A49DFEED5A92}</Guid>
-      <VersionMajor>17</VersionMajor>
-      <VersionMinor>3</VersionMinor>
+      <VersionMajor>20</VersionMajor>
+      <VersionMinor>1</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
