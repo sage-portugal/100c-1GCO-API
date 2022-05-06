@@ -81,3 +81,32 @@ C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.CoreCompileI
 C:\Users\jmf\Documents\100c-1GCO-API\bin\ApiLaunch.exe.config
 C:\Users\jmf\Documents\100c-1GCO-API\bin\ApiLaunch.exe
 C:\Users\jmf\Documents\100c-1GCO-API\bin\ApiLaunch.pdb
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.AssemblyReference.cache
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.SuggestedBindingRedirects.cache
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.MSXML2.dll
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.Scripting.dll
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.VBA.dll
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.XtremeCommandBars.dll
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.XtremePropertyGrid.dll
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.exe
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.pdb
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.Sage1GCOUtil40.dll
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\bin\ApiLaunch.exe.config
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\bin\ApiLaunch.exe
+C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\bin\ApiLaunch.pdb
