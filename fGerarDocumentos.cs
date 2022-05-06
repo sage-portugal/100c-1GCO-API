@@ -364,7 +364,7 @@ namespace ApiLaunchBusiness
                     TipoDoc = "TAR";
 
                     objDocumento.cab.Data = DateTime.Today.ToString("d");
-                    objDocumento.cab.Serie = 1;
+                    objDocumento.cab.Serie = "1";
                     objDocumento.cab.TipoDocumento = TipoDoc;
                     objDocumento.cab.Terceiro = "AR2";
                     objDocumento.cab.Sector = "ANS";
@@ -528,7 +528,7 @@ namespace ApiLaunchBusiness
                                         objDocumento.cab.TipoDocumento = TipoDoc;
                                         objDocumento.cab.TipoTerceiro = 1;
                                         objDocumento.cab.NossoNoDocumento = NrDoc;
-                                        objDocumento.cab.Serie = Convert.ToInt16(Double.Parse(Serie));
+                                        objDocumento.cab.Serie = Serie;
                                         objDocumento.cab.Ano = (short)DateTime.Parse(DataDoc).Year;
                                         objDocumento.cab.Data = DataDoc;
                                         objDocumento.cab.Sector = Sector;
@@ -884,7 +884,7 @@ namespace ApiLaunchBusiness
                                 {
                                     objDocumento.cab.TipoDocumento = TipoDoc;
                                     objDocumento.cab.NossoNoDocumento = NrDoc;
-                                    objDocumento.cab.Serie = Convert.ToInt16(Double.Parse(Serie));
+                                    objDocumento.cab.Serie = Serie;
                                     objDocumento.cab.Ano = (short)DateTime.Parse(DataDoc).Year;
                                     objDocumento.cab.Data = DataDoc;
                                     objDocumento.cab.Sector = Sector;

@@ -96,7 +96,7 @@ namespace ApiLaunchBusiness
                         //
                         Text25.Text = objContabDoc.cab.TipoDocumento;
                         Text26.Text = objContabDoc.cab.Numero.ToString();
-                        Text27.Text = objContabDoc.cab.Serie.ToString();
+                        Text27.Text = objContabDoc.cab.Serie;
                         Text28.Text = objContabDoc.cab.Sector;
                         Text29.Text = objContabDoc.cab.Data;
 
@@ -142,7 +142,7 @@ namespace ApiLaunchBusiness
                     
                     objContabDoc.cab.TipoDocumento = Text25.Text;
                     objContabDoc.cab.Numero = Convert.ToInt32(Text26.Text);
-                    objContabDoc.cab.Serie = Convert.ToInt16(Text27.Text);
+                    objContabDoc.cab.Serie = Text27.Text;
                     objContabDoc.cab.Sector = Text28.Text;
                     objContabDoc.cab.Data = Text29.Text;
                     objContabDoc.cab.TotalCredito = Decimal.Parse(Text30[0].Text, NumberStyles.Currency) + Decimal.Parse(Text30[1].Text, NumberStyles.Currency) + Decimal.Parse(Text30[2].Text, NumberStyles.Currency);

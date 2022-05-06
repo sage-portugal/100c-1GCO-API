@@ -136,7 +136,7 @@ namespace ApiLaunchBusiness
                     }
                     //
                     objDocumento.cab.TipoDocumento = Text501.Text;
-                    objDocumento.cab.Serie = Convert.ToInt16(Double.Parse(Text502.Text));
+                    objDocumento.cab.Serie = Text502.Text;
                     objDocumento.cab.NumeroDocumento = Convert.ToInt32(Double.Parse(Text503.Text));
                     objDocumento.cab.Ano = Convert.ToInt16(Double.Parse(Text504.Text));
                     objDocumento.cab.Data = Text505.Text;
@@ -197,7 +197,7 @@ namespace ApiLaunchBusiness
 
                         objLinhas.TipoDocumentoLiq = Text510.Text;
                         objLinhas.NumeroDocumentoLiq = Convert.ToInt32(Double.Parse(Text511.Text));
-                        objLinhas.SerieDoLiquidado = Convert.ToInt16(Double.Parse(Text512.Text));
+                        objLinhas.SerieDoLiquidado = Text512.Text;
                         objLinhas.Anol = Convert.ToInt16(Double.Parse(Text513.Text));
                         objLinhas.ValorPago = Convert.ToInt32(Text514.Text);
                         lResult = objDocumento.AdicionaLinha(objLinhas);
@@ -209,7 +209,7 @@ namespace ApiLaunchBusiness
                         objLinhas = System.Activator.CreateInstance(objType_DocumentosCcLin);
                         objLinhas.TipoDocumentoLiq = Text520.Text;
                         objLinhas.NumeroDocumentoLiq = Convert.ToInt32(Double.Parse(Text521.Text));
-                        objLinhas.SerieDoLiquidado = Convert.ToInt16(Double.Parse(Text522.Text));
+                        objLinhas.SerieDoLiquidado = Text522.Text;
                         objLinhas.Anol = Convert.ToInt16(Double.Parse(Text523.Text));
                         objLinhas.ValorPago = Convert.ToInt32(Text524.Text);
                         lResult = objDocumento.AdicionaLinha(objLinhas);

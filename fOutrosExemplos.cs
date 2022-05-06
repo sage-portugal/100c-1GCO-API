@@ -319,7 +319,7 @@ namespace ApiLaunchBusiness
                     withVar = oDocCtb.cab;
                     withVar.TipoDocumento = "CCF";
                     withVar.Numero = 2;
-                    withVar.Serie = 1;
+                    withVar.Serie = "1";
                     withVar.Sector = "ANS";
                     withVar.Data = DateTime.Today.ToString("d");
                     withVar.TotalCredito = 13.54m;
@@ -482,7 +482,7 @@ namespace ApiLaunchBusiness
                             objDocumento.ActivarLinhasPreco = true; 
 
                             objDocumento.cab.TipoDocumento = "TAR"; 
-                            objDocumento.cab.Serie = 2; 
+                            objDocumento.cab.Serie = "2"; 
                             objDocumento.cab.NossoNoDocumento = 2; 
                             objDocumento.cab.Ano = 2011; 
                             objDocumento.cab.Data = DateTime.Today.ToString("d"); 

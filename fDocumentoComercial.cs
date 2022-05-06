@@ -189,7 +189,7 @@ namespace ApiLaunchBusiness
             try
             {
                 string TipoDoc = String.Empty;
-                int Serie = 0;
+                string Serie = String.Empty;
                 int Numdoc = 0;
                 int Ano = 0;
 
@@ -198,13 +198,13 @@ namespace ApiLaunchBusiness
                     objDocumento = null;
                 
                     TipoDoc = txtTpDoc.Text;
-                    Serie = Convert.ToInt32(Double.Parse(txtSerie.Text));
+                    Serie = txtSerie.Text;
                     Numdoc = Convert.ToInt32(Double.Parse(txtNumero.Text));
                     Ano = Convert.ToInt32(Double.Parse(txtAno.Text));
 
                     objDocumento = System.Activator.CreateInstance(objType_DocumentoComercial);
 
-                    if (objDocumento.Finalizar((short)Ano, TipoDoc, (short)Serie, Numdoc, DateTime.Parse("00:00:00")) != 0)
+                    if (objDocumento.Finalizar((short)Ano, TipoDoc, Serie, Numdoc, DateTime.Parse("00:00:00")) != 0)
                     {
                         //Erro
                         fApi.DefInstance.EscreveMsg(objDocumento.UltimaMensagem());
@@ -312,7 +312,7 @@ namespace ApiLaunchBusiness
                     iRes = 0;
                     if (TipoOperacaoApi == Publicas.e_Operacao.Alterar)
                     { //And Text402.Text = 0 Then
-                        iRes = objDocumento.Ler(txtTpDoc.Text, Convert.ToInt32(txtNumero.Text), Convert.ToInt16(txtSerie.Text), Convert.ToInt16(Double.Parse(txtAno.Text)), "");
+                        iRes = objDocumento.Ler(txtTpDoc.Text, Convert.ToInt32(txtNumero.Text), txtSerie.Text, Convert.ToInt16(Double.Parse(txtAno.Text)), "");
                         if (iRes != 0)
                         {
                             fApi.DefInstance.EscreveMsg("O Documento não existe");
@@ -508,7 +508,7 @@ namespace ApiLaunchBusiness
                         //Preencher as seguintes propriedados se se pretender importar de originais
                         //objLinhas.Orano = 2011
                         //objLinhas.Ordoc = "GR"
-                        //objLinhas.Orserie = 10
+                        //objLinhas.Orserie = "10"
                         //objLinhas.Ornum = 2
                         //objLinhas.LinhaOriginal = 1
                         //
@@ -528,7 +528,7 @@ namespace ApiLaunchBusiness
                         //Para abater a linhas de documento Original
                         //       objLinhas.Orano = 2014          //Ano
                         //       objLinhas.Ordoc = "ENF"         //Documento
-                        //       objLinhas.Orserie = 1           //Série Documento
+                        //       objLinhas.Orserie = "1"           //Série Documento
                         //       objLinhas.Ornum = 2             //Numero DOcumento
                         //       objLinhas.LinhaOriginal = 1     //Numero da Linha Original
                         //       objLinhas.OrAreaGestao = 2      //Área de Gestão Original
@@ -721,7 +721,7 @@ namespace ApiLaunchBusiness
                         //   *
                         //        objLinhas.Orano = 2006          //Ano
                         //        objLinhas.Ordoc = "GR"          //Documento
-                        //        objLinhas.Orserie = 1           //Série Documento
+                        //        objLinhas.Orserie = "1"           //Série Documento
                         //        objLinhas.Ornum = 2             //Numero DOcumento
                         //        objLinhas.LinhaOriginal = 2     //Numero da Linha Original
                         //        objLinhas.OrAreaGestao = 4      //Área de Gestão da Linha Original
@@ -807,7 +807,7 @@ namespace ApiLaunchBusiness
 
                             //Preencher
                             txtTpDoc.Text = objDocumento.cab.TipoDocumento;
-                            txtSerie.Text = objDocumento.cab.Serie.ToString();
+                            txtSerie.Text = objDocumento.cab.Serie;
                             txtNumero.Text = objDocumento.cab.NossoNoDocumento.ToString();
                             txtAno.Text = objDocumento.cab.Ano.ToString();
                             txtData.Text = objDocumento.cab.Data;
@@ -1161,7 +1161,7 @@ namespace ApiLaunchBusiness
 
             short ano = Convert.ToInt16(Double.Parse(txtAno.Text));
             String tpDoc = txtTpDoc.Text;
-            short serie = Convert.ToInt16(txtSerie.Text);
+            String serie = txtSerie.Text;
             int numero = Convert.ToInt32(txtNumero.Text);
 
 
