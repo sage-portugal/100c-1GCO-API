@@ -814,15 +814,15 @@ namespace ApiLaunchBusiness
                             txtSetor.Text = objDocumento.cab.Sector;
                             Text407.Text = objDocumento.cab.Moeda;
                             cmbTpTercDocCom.SelectedIndex = objDocumento.cab.TipoTerceiro - 1;
-                            Text408.Text = objDocumento.cab.NomeVd;
+                            Text408.Text = objDocumento.cab.Terceiro;
                             Text409.Text = objDocumento.cab.DescontoCabecalho.ToString();
                             chkIvaIncluido.CheckState = (objDocumento.cab.IVAIncluido == -1) ? CheckState.Checked : CheckState.Unchecked;
                             //entidade
 
-                            if (Strings.Len(objDocumento.cab.NomeVd) == 0)
-                            {
-                                Text408.Text = objDocumento.cab.Terceiro;
-                            }
+                            //if (Strings.Len(objDocumento.cab.NomeVd) == 0)
+                            //{
+                            //    Text408.Text = objDocumento.cab.Terceiro;
+                            //}
 
                             //
                             // Preencher Linhas
