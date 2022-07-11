@@ -53,6 +53,7 @@ namespace ApiLaunchBusiness
         //
         // Inserir Documento via XML
         //
+
         private void cmdInserirDocumentosXML_Click(object sender, EventArgs e)
         {
             dynamic oDoc = null;
@@ -67,7 +68,7 @@ namespace ApiLaunchBusiness
                     CommonDialog1Open.Filter = "Documento XML (*.xml)|*.xml|Todos os ficheiros (*.*)|*.*";
                     CommonDialog1Open.DefaultExt = "xml";
 
-                    CommonDialog1Open.ShowDialog();
+                    CommonDialog1Open.ShowDialog( );
                     sXml = CommonDialog1Open.FileName;
 
                     if (File.Exists(sXml))
@@ -93,11 +94,9 @@ namespace ApiLaunchBusiness
                    }
                     return;
                 }
-                catch
+                catch (System.Exception excep)
                 {
-
-
-
+                    fApi.DefInstance.EscreveMsg(excep.Message);
                 }
             }
             finally

@@ -62,7 +62,7 @@ namespace ApiLaunchBusiness
                         result.Utilizador = "API";
                         result.Password = "API";
                         break;
-                    
+
                     case e_Api.Sage1GCOApi40:
 
                         result.PercursoBusinessWin = "C:\\ProgramData\\Sage\\2070\\100C";
@@ -205,7 +205,8 @@ namespace ApiLaunchBusiness
         {
             SageBGCOApi10 = 0,
             Sage1GCOApi30 = 1,
-            Sage1GCOApi40 = 2,
+            Sage1GCOApi40 = 2
+
         }
         
 

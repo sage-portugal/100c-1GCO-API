@@ -35,6 +35,7 @@ namespace ApiLaunchBusiness
 
         public Publicas.tp_DadosInicializacao ini;
 
+        [STAThread]
         static void Main()
         {
             Application.Run(CreateInstance());

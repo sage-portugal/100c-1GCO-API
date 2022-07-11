@@ -126,6 +126,13 @@ namespace ApiLaunchBusiness
                     case Publicas.e_Operacao.Alterar:
                         oCliente = System.Activator.CreateInstance(objType_Clientes);
 
+
+                        if (oCliente.Ler(Text201.Text) != 0)
+                        {
+                            fApi.DefInstance.EscreveMsg("O Terceiro não existe");
+                            return;
+                        };
+
                         oCliente.Codigo = Text201.Text;
                         oCliente.Nome = Text202.Text;
                         oCliente.REGIVA = Text203.Text;

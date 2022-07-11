@@ -353,7 +353,7 @@ namespace ApiLaunchBusiness
                     objDocumento.ActivarLinhasPreco = true;
 
                     objDocumento.cab.TipoDocumento = txtTpDoc.Text;
-                    objDocumento.cab.Serie = Convert.ToInt16(txtSerie.Text);
+                    objDocumento.cab.Serie = txtSerie.Text;
 
                     if (Int32.TryParse(txtNumero.Text, out numeroInt) == false)
                     {
@@ -508,7 +508,7 @@ namespace ApiLaunchBusiness
                         //Preencher as seguintes propriedados se se pretender importar de originais
                         //objLinhas.Orano = 2011
                         //objLinhas.Ordoc = "GR"
-                        //objLinhas.Orserie = "10"
+                        //objLinhas.Orserie = 10
                         //objLinhas.Ornum = 2
                         //objLinhas.LinhaOriginal = 1
                         //
@@ -528,7 +528,7 @@ namespace ApiLaunchBusiness
                         //Para abater a linhas de documento Original
                         //       objLinhas.Orano = 2014          //Ano
                         //       objLinhas.Ordoc = "ENF"         //Documento
-                        //       objLinhas.Orserie = "1"           //Série Documento
+                        //       objLinhas.Orserie = 1           //Série Documento
                         //       objLinhas.Ornum = 2             //Numero DOcumento
                         //       objLinhas.LinhaOriginal = 1     //Numero da Linha Original
                         //       objLinhas.OrAreaGestao = 2      //Área de Gestão Original
@@ -555,6 +555,12 @@ namespace ApiLaunchBusiness
 
                         objDocumento.SugereValoresLin(ref objLinhas, ref SugereUnidade, ref SugereData, ref SugereDescricao, ref SugereQuantidade, ref SugerePrUnit, ref SugereDesconto, ref SugereIva);
                         //objLinhas.PrecoUnitarioIntroduzido = objLinhas.PrecoUnitario
+
+                        if (TipoOperacaoApi == Publicas.e_Operacao.Alterar && objDocumento.EmPreparacao)
+                        {
+                            objLinhas.SerieOriginal = objDocumento.Cab.SerieOriginal;
+                            objLinhas.NumeroOriginal = objDocumento.Cab.NumeroOriginal;
+                        }
 
                         lResult = objDocumento.AdicionaLinha(objLinhas);
 
@@ -721,7 +727,7 @@ namespace ApiLaunchBusiness
                         //   *
                         //        objLinhas.Orano = 2006          //Ano
                         //        objLinhas.Ordoc = "GR"          //Documento
-                        //        objLinhas.Orserie = "1"           //Série Documento
+                        //        objLinhas.Orserie = 1           //Série Documento
                         //        objLinhas.Ornum = 2             //Numero DOcumento
                         //        objLinhas.LinhaOriginal = 2     //Numero da Linha Original
                         //        objLinhas.OrAreaGestao = 4      //Área de Gestão da Linha Original
@@ -799,7 +805,7 @@ namespace ApiLaunchBusiness
 
                     case Publicas.e_Operacao.Leitura:                       
                         objDocumento = System.Activator.CreateInstance(objType_DocumentoComercial);
-                        lResult = objDocumento.Ler(txtTpDoc.Text, Convert.ToInt32(Double.Parse(txtNumero.Text)), Convert.ToInt16(Double.Parse(txtSerie.Text)), Convert.ToInt16(Double.Parse(txtAno.Text)), "");
+                        lResult = objDocumento.Ler(txtTpDoc.Text, Convert.ToInt32(Double.Parse(txtNumero.Text)), txtSerie.Text, Convert.ToInt16(Double.Parse(txtAno.Text)), "");
                         if (lResult == 0)
                         {
 
@@ -807,7 +813,13 @@ namespace ApiLaunchBusiness
 
                             //Preencher
                             txtTpDoc.Text = objDocumento.cab.TipoDocumento;
-                            txtSerie.Text = objDocumento.cab.Serie;
+                            if (objDocumento.EmPreparacao) {
+                                txtSerie.Text = "0";
+                            }
+                            else
+                            {
+                                txtSerie.Text = objDocumento.cab.Serie.ToString();
+                            }
                             txtNumero.Text = objDocumento.cab.NossoNoDocumento.ToString();
                             txtAno.Text = objDocumento.cab.Ano.ToString();
                             txtData.Text = objDocumento.cab.Data;
@@ -818,11 +830,6 @@ namespace ApiLaunchBusiness
                             Text409.Text = objDocumento.cab.DescontoCabecalho.ToString();
                             chkIvaIncluido.CheckState = (objDocumento.cab.IVAIncluido == -1) ? CheckState.Checked : CheckState.Unchecked;
                             //entidade
-
-                            //if (Strings.Len(objDocumento.cab.NomeVd) == 0)
-                            //{
-                            //    Text408.Text = objDocumento.cab.Terceiro;
-                            //}
 
                             //
                             // Preencher Linhas
