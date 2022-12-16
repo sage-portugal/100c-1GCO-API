@@ -146,6 +146,8 @@
             this.txtSystemEntryDate = new System.Windows.Forms.TextBox();
             this.panelFinalizado = new System.Windows.Forms.Panel();
             this.cmdImprimir = new System.Windows.Forms.Button();
+            this.txtATCUD = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Frame_Main)).BeginInit();
             this.Frame_Main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._fAdicional_2)).BeginInit();
@@ -162,7 +164,7 @@
             this.cmdLer.BackColor = System.Drawing.SystemColors.Control;
             this.cmdLer.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdLer.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdLer.Location = new System.Drawing.Point(246, 524);
+            this.cmdLer.Location = new System.Drawing.Point(252, 551);
             this.cmdLer.Name = "cmdLer";
             this.cmdLer.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdLer.Size = new System.Drawing.Size(77, 25);
@@ -177,7 +179,7 @@
             this.cmdIns.BackColor = System.Drawing.SystemColors.Control;
             this.cmdIns.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdIns.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdIns.Location = new System.Drawing.Point(6, 524);
+            this.cmdIns.Location = new System.Drawing.Point(12, 551);
             this.cmdIns.Name = "cmdIns";
             this.cmdIns.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdIns.Size = new System.Drawing.Size(77, 25);
@@ -192,7 +194,7 @@
             this.cmdDel.BackColor = System.Drawing.SystemColors.Control;
             this.cmdDel.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdDel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdDel.Location = new System.Drawing.Point(166, 524);
+            this.cmdDel.Location = new System.Drawing.Point(172, 551);
             this.cmdDel.Name = "cmdDel";
             this.cmdDel.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdDel.Size = new System.Drawing.Size(77, 25);
@@ -207,7 +209,7 @@
             this.cmdUpd.BackColor = System.Drawing.SystemColors.Control;
             this.cmdUpd.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdUpd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdUpd.Location = new System.Drawing.Point(86, 524);
+            this.cmdUpd.Location = new System.Drawing.Point(92, 551);
             this.cmdUpd.Name = "cmdUpd";
             this.cmdUpd.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdUpd.Size = new System.Drawing.Size(77, 25);
@@ -219,7 +221,7 @@
             // 
             // cmdSair
             // 
-            this.cmdSair.Location = new System.Drawing.Point(647, 524);
+            this.cmdSair.Location = new System.Drawing.Point(653, 551);
             this.cmdSair.Name = "cmdSair";
             this.cmdSair.Size = new System.Drawing.Size(75, 25);
             this.cmdSair.TabIndex = 216;
@@ -1759,6 +1761,8 @@
             // 
             // panelFinalizado
             // 
+            this.panelFinalizado.Controls.Add(this.label1);
+            this.panelFinalizado.Controls.Add(this.txtATCUD);
             this.panelFinalizado.Controls.Add(this._lbl_1);
             this.panelFinalizado.Controls.Add(this._lbl_4);
             this.panelFinalizado.Controls.Add(this.txtSystemEntryDate);
@@ -1772,7 +1776,7 @@
             this.panelFinalizado.Controls.Add(this.txtHashCertificate);
             this.panelFinalizado.Location = new System.Drawing.Point(12, 366);
             this.panelFinalizado.Name = "panelFinalizado";
-            this.panelFinalizado.Size = new System.Drawing.Size(716, 152);
+            this.panelFinalizado.Size = new System.Drawing.Size(716, 179);
             this.panelFinalizado.TabIndex = 297;
             // 
             // cmdImprimir
@@ -1780,7 +1784,7 @@
             this.cmdImprimir.BackColor = System.Drawing.SystemColors.Control;
             this.cmdImprimir.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdImprimir.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdImprimir.Location = new System.Drawing.Point(564, 524);
+            this.cmdImprimir.Location = new System.Drawing.Point(570, 551);
             this.cmdImprimir.Name = "cmdImprimir";
             this.cmdImprimir.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdImprimir.Size = new System.Drawing.Size(77, 25);
@@ -1790,11 +1794,32 @@
             this.cmdImprimir.UseVisualStyleBackColor = false;
             this.cmdImprimir.Click += new System.EventHandler(this.cmdImprimir_Click);
             // 
+            // txtATCUD
+            // 
+            this.txtATCUD.Location = new System.Drawing.Point(294, 143);
+            this.txtATCUD.Name = "txtATCUD";
+            this.txtATCUD.Size = new System.Drawing.Size(116, 20);
+            this.txtATCUD.TabIndex = 297;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(12, 142);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.TabIndex = 298;
+            this.label1.Text = "ATCUD";
+            // 
             // fDocumentoComercial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(734, 561);
+            this.ClientSize = new System.Drawing.Size(734, 582);
             this.Controls.Add(this.cmdImprimir);
             this.Controls.Add(this.panelFinalizado);
             this.Controls.Add(this.cmdFinalizar);
@@ -1972,5 +1997,7 @@
         private System.Windows.Forms.TextBox txtSystemEntryDate;
         private System.Windows.Forms.Panel panelFinalizado;
         public System.Windows.Forms.Button cmdImprimir;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtATCUD;
     }
 }

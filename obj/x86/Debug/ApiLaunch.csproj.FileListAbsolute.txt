@@ -1,112 +1,83 @@
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.exe.config
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.exe
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.pdb
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csprojAssemblyReference.cache
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.MSXML2.dll
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.Sage1GCOUtil10.dll
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.Scripting.dll
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.VBA.dll
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.XtremeCommandBars.dll
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.XtremePropertyGrid.dll
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.exe
-C:\DEV\C100\MAIN\SOURCE\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.pdb
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\bin\ApiLaunch.exe.config
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\bin\ApiLaunch.exe
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\bin\ApiLaunch.pdb
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csprojAssemblyReference.cache
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.MSXML2.dll
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.Sage1GCOUtil10.dll
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.Scripting.dll
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.VBA.dll
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.XtremeCommandBars.dll
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\Interop.XtremePropertyGrid.dll
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.exe
-Z:\CD100C\C100 2018.BETA (Future Release)\1GCO\TARGETDIR\ApiGestao\ApiSage100cLaunchCSharp\100c-1GCO-API\obj\x86\Debug\ApiLaunch.pdb
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\Interop.MSXML2.dll
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\Interop.Sage1GCOUtil30.dll
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\Interop.Scripting.dll
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\Interop.VBA.dll
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\Interop.XtremeCommandBars.dll
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\Interop.XtremePropertyGrid.dll
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.exe
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.pdb
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
-C:\Users\jmf\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
-C:\Users\jmf\Documents\100c-1GCO-API\bin\ApiLaunch.exe.config
-C:\Users\jmf\Documents\100c-1GCO-API\bin\ApiLaunch.exe
-C:\Users\jmf\Documents\100c-1GCO-API\bin\ApiLaunch.pdb
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.AssemblyReference.cache
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.SuggestedBindingRedirects.cache
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.MSXML2.dll
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.Scripting.dll
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.VBA.dll
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.XtremeCommandBars.dll
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.XtremePropertyGrid.dll
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.exe
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\ApiLaunch.pdb
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\obj\x86\Debug\Interop.Sage1GCOUtil40.dll
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\bin\ApiLaunch.exe.config
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\bin\ApiLaunch.exe
-C:\Users\jmf\OneDrive - Sage Software, Inc\Documents\100c-1GCO-API\bin\ApiLaunch.pdb
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.MSXML2.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.Sage1GCOUtil10.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.Scripting.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.VBA.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.XtremeCommandBars.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.XtremePropertyGrid.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.exe.config
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.exe
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.pdb
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.exe
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\1.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.pdb
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.MSXML2.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.Sage1GCOUtil30.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.Scripting.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.VBA.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.XtremeCommandBars.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.XtremePropertyGrid.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.exe
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.pdb
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.exe.config
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.exe
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\3.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.pdb
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.exe.config
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.exe
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\bin\ApiLaunch.pdb
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.AssemblyReference.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.SuggestedBindingRedirects.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.MSXML2.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.Sage1GCOUtil40.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.Scripting.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.VBA.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.XtremeCommandBars.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\Interop.XtremePropertyGrid.dll
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.ResolveComReference.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fApi.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fArtigos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fClientes.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoComercial.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoContabilidade.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fDocumentoRecibo.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fFornecedores.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fGerarDocumentos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fOutrosExemplos.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fPlanoContas.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fUnidades.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunchBusiness.fPrintDialog.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.Properties.Resources.resources
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.GenerateResource.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.csproj.CoreCompileInputs.cache
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.exe
+C:\DEV\C100\MAIN\Source\APP\GCO\SRC.DLL\Sage.1GCO.Api\4.0\Parceiros\ApiSage100cLaunchCSharp\obj\x86\Debug\ApiLaunch.pdb

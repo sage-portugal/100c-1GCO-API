@@ -169,9 +169,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.VisualBasic.Compatibility" />
@@ -197,7 +194,7 @@
     <COMReference Include="Sage1GCOUtil40">
       <Guid>{DC2118FA-E343-4C6A-BE29-A620517F4CB0}</Guid>
       <VersionMajor>1</VersionMajor>
-      <VersionMinor>4</VersionMinor>
+      <VersionMinor>2</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>

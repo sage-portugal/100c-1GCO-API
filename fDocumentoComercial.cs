@@ -395,6 +395,7 @@ namespace ApiLaunchBusiness
                     objDocumento.cab.HashCertificate = numeroShort;                    //Certificado da Aplicação Integradora
                     objDocumento.cab.HashSign = this.txtHashSign.Text;                  //Assinatura da Aplicação Integradora
                     objDocumento.cab.InvoiceNo = this.txtInvoiceNo.Text;                 //InvoiceNo da Aplicação Integradora
+                    objDocumento.cab.ATCUD = this.txtATCUD.Text;                        //ATCUD da aplicação integradora
 
                     //   *
                     //   * -----------------------------------------------------------------------------------------------
