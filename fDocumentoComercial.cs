@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.Globalization;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ApiLaunchBusiness
 {
@@ -975,12 +976,22 @@ namespace ApiLaunchBusiness
                 {
                     if (LigGaCom.CheckState == CheckState.Checked)
                     {
+                        Boolean bExisteMovContab = false;
+                        objContabDoc = System.Activator.CreateInstance(objType_DocumentoContabilistico);
+                        objContabDoc.Ler(objDocumento.cab.TipoDocumento, objDocumento.cab.NossoNoDocumento, objDocumento.cab.Serie, objDocumento.cab.Ano);
+                        if (objContabDoc.Linhas.Count > 0)
+                            { bExisteMovContab = true; }
+                        else
+                            { bExisteMovContab = false; }
+
+                        objContabDoc = null;
                         objContabDoc = System.Activator.CreateInstance(objType_DocumentoContabilistico);
                         objContabDoc.DocumentoComercial(ref objDocumento);
 
                         lResultContab = objContabDoc.Validar();
                         if (lResultContab == 0)
                         {
+                            if (!bExisteMovContab)
                             lResultContab = objContabDoc.Inserir();
                         }
 
