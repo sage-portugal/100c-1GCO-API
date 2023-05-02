@@ -11,6 +11,7 @@ using System.Runtime.InteropServices;
 using System.IO;
 using System.Globalization;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static ApiLaunchBusiness.Publicas;
 
 namespace ApiLaunchBusiness
 {
@@ -977,14 +978,21 @@ namespace ApiLaunchBusiness
                     if (LigGaCom.CheckState == CheckState.Checked)
                     {
                         Boolean bExisteMovContab = false;
-                        objContabDoc = System.Activator.CreateInstance(objType_DocumentoContabilistico);
-                        objContabDoc.Ler(objDocumento.cab.TipoDocumento, objDocumento.cab.NossoNoDocumento, objDocumento.cab.Serie, objDocumento.cab.Ano);
-                        if (objContabDoc.Linhas.Count > 0)
+                        dynamic objContabDocTest = null;
+                        objContabDocTest = System.Activator.CreateInstance(objType_DocumentoContabilistico);
+                        objContabDocTest.Ler(objDocumento.cab.TipoDocumento, objDocumento.cab.NossoNoDocumento, objDocumento.cab.Serie, objDocumento.cab.Ano);
+                        if (objContabDocTest.Linhas.Count > 0)
                             { bExisteMovContab = true; }
                         else
                             { bExisteMovContab = false; }
+                        if (objContabDocTest != null)
+                        {
+                            // Destruir Objeto
+                            Marshal.ReleaseComObject(objContabDocTest);
+                        }
 
-                        objContabDoc = null;
+                        objContabDocTest = null;
+
                         objContabDoc = System.Activator.CreateInstance(objType_DocumentoContabilistico);
                         objContabDoc.DocumentoComercial(ref objDocumento);
 
@@ -1000,7 +1008,12 @@ namespace ApiLaunchBusiness
                             fApi.DefInstance.EscreveMsg(objContabDoc.UltimaMensagem());
                         }
 
-                        objContabDoc = null;
+                        if (objDocumento != null)
+                        {
+                            // Destruir Objeto                    
+                            Marshal.ReleaseComObject(objDocumento);
+                        }
+
                     }
                 }
                 //   * -----------------------------------------------------------------------------------------------
@@ -1032,6 +1045,12 @@ namespace ApiLaunchBusiness
                     Marshal.ReleaseComObject(objLotes);
                 }
 
+                if (objContabDoc != null)
+                {
+                    // Destruir Objeto
+                    Marshal.ReleaseComObject(objContabDoc);
+                }
+
                 if (objLinhas != null)
                 {
                     // Destruir Objeto
@@ -1040,16 +1059,9 @@ namespace ApiLaunchBusiness
 
                 if (objDocumento != null)
                 {
-                    // Destruir Objeto
+                    // Destruir Objeto                    
                     Marshal.ReleaseComObject(objDocumento);
                 }
-
-                if (objContabDoc != null)
-                {
-                    // Destruir Objeto
-                    Marshal.ReleaseComObject(objContabDoc);
-                }
-
 
                 if (objBanco != null)
                 {
