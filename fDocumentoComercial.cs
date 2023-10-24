@@ -357,6 +357,9 @@ namespace ApiLaunchBusiness
                     objDocumento.cab.TipoDocumento = txtTpDoc.Text;
                     objDocumento.cab.Serie = txtSerie.Text;
 
+                    objDocumento.cab.ManualExternalInvoiceNo = TxtNumeroManual.Text;
+                    objDocumento.cab.ManualExternalSerie = TxtSerieManual.Text;
+
                     if (Int32.TryParse(txtNumero.Text, out numeroInt) == false)
                     {
                         numeroInt = 0;
