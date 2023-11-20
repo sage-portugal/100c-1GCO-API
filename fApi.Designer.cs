@@ -209,7 +209,6 @@ namespace ApiLaunchBusiness
             this._Label1_0.Size = new System.Drawing.Size(187, 13);
             this._Label1_0.TabIndex = 180;
             this._Label1_0.Text = "Copyright © 2023 - Sage Portugal";
-            this._Label1_0.Click += new System.EventHandler(this._Label1_0_Click);
             // 
             // _Bar1_1
             // 
