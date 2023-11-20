@@ -107,8 +107,8 @@ namespace ApiLaunchBusiness
             this.GerarDocumentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DocumentoContabilidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.outrasExemplosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbCSharp)).BeginInit();
             this.Principal_menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -202,13 +202,14 @@ namespace ApiLaunchBusiness
             this._Label1_0.BackColor = System.Drawing.Color.Transparent;
             this._Label1_0.Cursor = System.Windows.Forms.Cursors.Default;
             this._Label1_0.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this._Label1_0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(136)))), ((int)(((byte)(113)))));
+            this._Label1_0.ForeColor = System.Drawing.Color.Black;
             this._Label1_0.Location = new System.Drawing.Point(867, 540);
             this._Label1_0.Name = "_Label1_0";
             this._Label1_0.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this._Label1_0.Size = new System.Drawing.Size(187, 13);
             this._Label1_0.TabIndex = 180;
-            this._Label1_0.Text = "Copyright © 2016 - Sage Portugal";
+            this._Label1_0.Text = "Copyright © 2023 - Sage Portugal";
+            this._Label1_0.Click += new System.EventHandler(this._Label1_0_Click);
             // 
             // _Bar1_1
             // 
@@ -434,20 +435,9 @@ namespace ApiLaunchBusiness
             // outrasExemplosToolStripMenuItem
             // 
             this.outrasExemplosToolStripMenuItem.Name = "outrasExemplosToolStripMenuItem";
-            this.outrasExemplosToolStripMenuItem.Size = new System.Drawing.Size(108, 20);
+            this.outrasExemplosToolStripMenuItem.Size = new System.Drawing.Size(109, 20);
             this.outrasExemplosToolStripMenuItem.Text = "Outros Exemplos";
             this.outrasExemplosToolStripMenuItem.Click += new System.EventHandler(this.outrasExemplosToolStripMenuItem_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(10, 27);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(311, 99);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 295;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -463,14 +453,24 @@ namespace ApiLaunchBusiness
             this.label2.Text = "Percurso";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(18, 37);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(176, 81);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 297;
+            this.pictureBox1.TabStop = false;
+            // 
             // fApi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1048, 621);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label101);
             this.Controls.Add(this.pbCSharp);
             this.Controls.Add(this.txtStatusMsg);
@@ -538,7 +538,7 @@ namespace ApiLaunchBusiness
         private System.Windows.Forms.ToolStripMenuItem fornecedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem planoDeContasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem outrasExemplosToolStripMenuItem;
-        public System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
