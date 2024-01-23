@@ -401,6 +401,7 @@ namespace ApiLaunchBusiness
                     objDocumento.cab.HashSign = this.txtHashSign.Text;                  //Assinatura da Aplicação Integradora
                     objDocumento.cab.InvoiceNo = this.txtInvoiceNo.Text;                 //InvoiceNo da Aplicação Integradora
                     objDocumento.cab.ATCUD = this.txtATCUD.Text;                        //ATCUD da aplicação integradora
+                    objDocumento.cab.QRCodeText = this.txtQRCodeText.Text;              // QRCode Text da aplicação integradora
 
                     //   *
                     //   * -----------------------------------------------------------------------------------------------

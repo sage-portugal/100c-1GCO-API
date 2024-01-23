@@ -142,6 +142,11 @@ namespace ApiLaunchBusiness
                     objDocumento.cab.Data = Text505.Text;
                     objDocumento.cab.Sector = Text506.Text;
                     objDocumento.cab.Moeda = Text507.Text;
+
+                    // no caso de séries externas temos de inserir o ATCUD e o QRCOdeText da aplicação externa
+                    objDocumento.cab.ATCUD = txtATCUD.Text;
+                    objDocumento.cab.QRCodeText = txtQRCodeText.Text;
+
                     //Fornecedor=1; Cliente=2
                     if (cmbRecPeg.SelectedIndex == 0)
                     {

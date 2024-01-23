@@ -67,6 +67,10 @@
             this.Label32 = new System.Windows.Forms.Label();
             this.Label31 = new System.Windows.Forms.Label();
             this.Label30 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtATCUD = new System.Windows.Forms.TextBox();
+            this.txtQRCodeText = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // cmdLer
@@ -591,11 +595,49 @@
             this.Label30.TabIndex = 102;
             this.Label30.Text = "Linha 2";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(28, 236);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.TabIndex = 299;
+            this.label1.Text = "ATCUD";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(28, 262);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 13);
+            this.label2.TabIndex = 300;
+            this.label2.Text = "QR Code Text";
+            // 
+            // txtATCUD
+            // 
+            this.txtATCUD.Location = new System.Drawing.Point(117, 234);
+            this.txtATCUD.Name = "txtATCUD";
+            this.txtATCUD.Size = new System.Drawing.Size(75, 20);
+            this.txtATCUD.TabIndex = 301;
+            // 
+            // txtQRCodeText
+            // 
+            this.txtQRCodeText.Location = new System.Drawing.Point(115, 259);
+            this.txtQRCodeText.Name = "txtQRCodeText";
+            this.txtQRCodeText.Size = new System.Drawing.Size(267, 20);
+            this.txtQRCodeText.TabIndex = 302;
+            // 
             // fDocumentoRecibo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 336);
+            this.Controls.Add(this.txtQRCodeText);
+            this.Controls.Add(this.txtATCUD);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtValorPorConta);
             this.Controls.Add(this.cmbRecPeg);
             this.Controls.Add(this.cmdLer);
@@ -683,5 +725,9 @@
         public System.Windows.Forms.Label Label32;
         public System.Windows.Forms.Label Label31;
         public System.Windows.Forms.Label Label30;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtATCUD;
+        private System.Windows.Forms.TextBox txtQRCodeText;
     }
 }

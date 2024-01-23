@@ -145,14 +145,16 @@
             this.cmdFinalizar = new System.Windows.Forms.Button();
             this.txtSystemEntryDate = new System.Windows.Forms.TextBox();
             this.panelFinalizado = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.TxtNumeroManual = new System.Windows.Forms.TextBox();
+            this.TxtSerieManual = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtATCUD = new System.Windows.Forms.TextBox();
             this.cmdImprimir = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.TxtSerieManual = new System.Windows.Forms.TextBox();
-            this.TxtNumeroManual = new System.Windows.Forms.TextBox();
+            this.txtQRCodeText = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Frame_Main)).BeginInit();
             this.Frame_Main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._fAdicional_2)).BeginInit();
@@ -169,7 +171,7 @@
             this.cmdLer.BackColor = System.Drawing.SystemColors.Control;
             this.cmdLer.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdLer.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdLer.Location = new System.Drawing.Point(252, 599);
+            this.cmdLer.Location = new System.Drawing.Point(252, 635);
             this.cmdLer.Name = "cmdLer";
             this.cmdLer.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdLer.Size = new System.Drawing.Size(77, 25);
@@ -184,7 +186,7 @@
             this.cmdIns.BackColor = System.Drawing.SystemColors.Control;
             this.cmdIns.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdIns.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdIns.Location = new System.Drawing.Point(12, 599);
+            this.cmdIns.Location = new System.Drawing.Point(12, 635);
             this.cmdIns.Name = "cmdIns";
             this.cmdIns.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdIns.Size = new System.Drawing.Size(77, 25);
@@ -199,7 +201,7 @@
             this.cmdDel.BackColor = System.Drawing.SystemColors.Control;
             this.cmdDel.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdDel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdDel.Location = new System.Drawing.Point(172, 599);
+            this.cmdDel.Location = new System.Drawing.Point(172, 635);
             this.cmdDel.Name = "cmdDel";
             this.cmdDel.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdDel.Size = new System.Drawing.Size(77, 25);
@@ -214,7 +216,7 @@
             this.cmdUpd.BackColor = System.Drawing.SystemColors.Control;
             this.cmdUpd.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdUpd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdUpd.Location = new System.Drawing.Point(92, 599);
+            this.cmdUpd.Location = new System.Drawing.Point(92, 635);
             this.cmdUpd.Name = "cmdUpd";
             this.cmdUpd.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdUpd.Size = new System.Drawing.Size(77, 25);
@@ -226,7 +228,7 @@
             // 
             // cmdSair
             // 
-            this.cmdSair.Location = new System.Drawing.Point(653, 599);
+            this.cmdSair.Location = new System.Drawing.Point(653, 635);
             this.cmdSair.Name = "cmdSair";
             this.cmdSair.Size = new System.Drawing.Size(75, 25);
             this.cmdSair.TabIndex = 216;
@@ -1766,6 +1768,8 @@
             // 
             // panelFinalizado
             // 
+            this.panelFinalizado.Controls.Add(this.txtQRCodeText);
+            this.panelFinalizado.Controls.Add(this.label5);
             this.panelFinalizado.Controls.Add(this.TxtNumeroManual);
             this.panelFinalizado.Controls.Add(this.TxtSerieManual);
             this.panelFinalizado.Controls.Add(this.label4);
@@ -1786,8 +1790,64 @@
             this.panelFinalizado.Controls.Add(this.txtHashCertificate);
             this.panelFinalizado.Location = new System.Drawing.Point(12, 366);
             this.panelFinalizado.Name = "panelFinalizado";
-            this.panelFinalizado.Size = new System.Drawing.Size(716, 227);
+            this.panelFinalizado.Size = new System.Drawing.Size(716, 263);
             this.panelFinalizado.TabIndex = 297;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label5.Location = new System.Drawing.Point(12, 168);
+            this.label5.Name = "label5";
+            this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label5.Size = new System.Drawing.Size(83, 13);
+            this.label5.TabIndex = 304;
+            this.label5.Text = "QRCode Text";
+            // 
+            // TxtNumeroManual
+            // 
+            this.TxtNumeroManual.Location = new System.Drawing.Point(294, 231);
+            this.TxtNumeroManual.Name = "TxtNumeroManual";
+            this.TxtNumeroManual.Size = new System.Drawing.Size(100, 20);
+            this.TxtNumeroManual.TabIndex = 303;
+            // 
+            // TxtSerieManual
+            // 
+            this.TxtSerieManual.Location = new System.Drawing.Point(294, 205);
+            this.TxtSerieManual.Name = "TxtSerieManual";
+            this.TxtSerieManual.Size = new System.Drawing.Size(100, 20);
+            this.TxtSerieManual.TabIndex = 302;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(19, 192);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(91, 13);
+            this.label4.TabIndex = 301;
+            this.label4.Text = "Origem Manual";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(31, 231);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 13);
+            this.label3.TabIndex = 300;
+            this.label3.Text = "Número";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(32, 212);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(31, 13);
+            this.label2.TabIndex = 299;
+            this.label2.Text = "Série";
             // 
             // label1
             // 
@@ -1815,7 +1875,7 @@
             this.cmdImprimir.BackColor = System.Drawing.SystemColors.Control;
             this.cmdImprimir.Cursor = System.Windows.Forms.Cursors.Default;
             this.cmdImprimir.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cmdImprimir.Location = new System.Drawing.Point(570, 599);
+            this.cmdImprimir.Location = new System.Drawing.Point(570, 635);
             this.cmdImprimir.Name = "cmdImprimir";
             this.cmdImprimir.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmdImprimir.Size = new System.Drawing.Size(77, 25);
@@ -1825,53 +1885,18 @@
             this.cmdImprimir.UseVisualStyleBackColor = false;
             this.cmdImprimir.Click += new System.EventHandler(this.cmdImprimir_Click);
             // 
-            // label2
+            // txtQRCodeText
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 188);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
-            this.label2.TabIndex = 299;
-            this.label2.Text = "Série";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(31, 207);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
-            this.label3.TabIndex = 300;
-            this.label3.Text = "Número";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 168);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 13);
-            this.label4.TabIndex = 301;
-            this.label4.Text = "Origem Manual";
-            // 
-            // TxtSerieManual
-            // 
-            this.TxtSerieManual.Location = new System.Drawing.Point(294, 181);
-            this.TxtSerieManual.Name = "TxtSerieManual";
-            this.TxtSerieManual.Size = new System.Drawing.Size(100, 20);
-            this.TxtSerieManual.TabIndex = 302;
-            // 
-            // TxtNumeroManual
-            // 
-            this.TxtNumeroManual.Location = new System.Drawing.Point(294, 207);
-            this.TxtNumeroManual.Name = "TxtNumeroManual";
-            this.TxtNumeroManual.Size = new System.Drawing.Size(100, 20);
-            this.TxtNumeroManual.TabIndex = 303;
+            this.txtQRCodeText.Location = new System.Drawing.Point(294, 169);
+            this.txtQRCodeText.Name = "txtQRCodeText";
+            this.txtQRCodeText.Size = new System.Drawing.Size(382, 20);
+            this.txtQRCodeText.TabIndex = 305;
             // 
             // fDocumentoComercial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(734, 631);
+            this.ClientSize = new System.Drawing.Size(734, 671);
             this.Controls.Add(this.cmdImprimir);
             this.Controls.Add(this.panelFinalizado);
             this.Controls.Add(this.cmdFinalizar);
@@ -2056,5 +2081,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtQRCodeText;
     }
 }
