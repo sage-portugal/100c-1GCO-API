@@ -100,7 +100,7 @@ namespace ApiLaunchBusiness
 
                 if (TipoOperacaoApi == Publicas.e_Operacao.Remover)
                 {
-                    objDocumento.Ler(Text501.Text, Convert.ToInt32(Double.Parse(Text503.Text)), Convert.ToInt16(Double.Parse(Text502.Text)), Convert.ToInt16(Double.Parse(Text504.Text)), "");
+                    objDocumento.Ler(Text501.Text, Convert.ToInt32(Double.Parse(Text503.Text)), Text502.Text, Convert.ToInt16(Double.Parse(Text504.Text)), "");
                     if (objDocumento.cab.NumeroDocumento != 0)
                     {
                         lResult = objDocumento.Remover();
@@ -124,7 +124,7 @@ namespace ApiLaunchBusiness
                 {
                     if (TipoOperacaoApi == Publicas.e_Operacao.Alterar)
                     {
-                        objDocumento.Ler(Text501.Text, Convert.ToInt32(Double.Parse(Text503.Text)), Convert.ToInt16(Double.Parse(Text502.Text)), Convert.ToInt16(Double.Parse(Text504.Text)), "");
+                        objDocumento.Ler(Text501.Text, Convert.ToInt32(Double.Parse(Text503.Text)), Text502.Text, Convert.ToInt16(Double.Parse(Text504.Text)), "");
                         if (objDocumento.cab.NumeroDocumento > 0)
                         {
 
@@ -204,7 +204,7 @@ namespace ApiLaunchBusiness
                         objLinhas.NumeroDocumentoLiq = Convert.ToInt32(Double.Parse(Text511.Text));
                         objLinhas.SerieDoLiquidado = Text512.Text;
                         objLinhas.Anol = Convert.ToInt16(Double.Parse(Text513.Text));
-                        objLinhas.ValorPago = Convert.ToInt32(Text514.Text);
+                        objLinhas.ValorPago = Convert.ToDecimal(Text514.Text); // ToInt32(Text514.Text);
                         lResult = objDocumento.AdicionaLinha(objLinhas);
                         objLinhas = null;
                     }
@@ -216,7 +216,7 @@ namespace ApiLaunchBusiness
                         objLinhas.NumeroDocumentoLiq = Convert.ToInt32(Double.Parse(Text521.Text));
                         objLinhas.SerieDoLiquidado = Text522.Text;
                         objLinhas.Anol = Convert.ToInt16(Double.Parse(Text523.Text));
-                        objLinhas.ValorPago = Convert.ToInt32(Text524.Text);
+                        objLinhas.ValorPago = Convert.ToDecimal(Text524.Text); //Convert.ToInt32(Text524.Text);
                         lResult = objDocumento.AdicionaLinha(objLinhas);
                         objLinhas = null;
                     }
@@ -275,7 +275,7 @@ namespace ApiLaunchBusiness
                         //
                         // Atenção, é obrigatório voltar a ler o Documento acabado de gravar para a integração na Contabilidade
                         //
-                        lResult = objDocumento.Ler(Text501.Text, Convert.ToInt32(Double.Parse(Text503.Text)), Convert.ToInt16(Double.Parse(Text502.Text)), Convert.ToInt16(Double.Parse(Text504.Text)), "");
+                        lResult = objDocumento.Ler(Text501.Text, Convert.ToInt32(Double.Parse(Text503.Text)), Text502.Text, Convert.ToInt16(Double.Parse(Text504.Text)), "");
 
                         if (lResult == 0)
                         {

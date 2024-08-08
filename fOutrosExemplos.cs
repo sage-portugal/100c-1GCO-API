@@ -75,7 +75,7 @@ namespace ApiLaunchBusiness
                     {
 
                         oDoc = System.Activator.CreateInstance(objType_DocumentoComercial);
-                        oDoc.Ler("", 0, 0, 0, sXml); 
+                        oDoc.Ler("", 0, "0", 0, sXml); 
                                 if (oDoc.Validar() == 0)
                                 {
                                     oDoc.Inserir();
@@ -133,7 +133,7 @@ namespace ApiLaunchBusiness
                     {
                         oRecibo = System.Activator.CreateInstance(objType_DocumentoFinanceiro);
 
-                        oRecibo.Ler("", 0, 0, 0, sXml);
+                        oRecibo.Ler("", 0, "0", 0, sXml);
                         if (oRecibo.Validar() == 0)
                         {
                             oRecibo.Inserir();
@@ -196,13 +196,13 @@ namespace ApiLaunchBusiness
                 //remover o documento contabilistico existente
                 oDocCtb = System.Activator.CreateInstance(objType_DocumentoContabilistico);
 
-                oDocCtb.Ler("CCF", 3, 1, 2014, "");
+                oDocCtb.Ler("CCF", 3, "1", 2014, "");
                 oDocCtb.Remover();
                 oDocCtb = null;
 
                 //ler o documento comercial
                 oDocCom = System.Activator.CreateInstance(objType_DocumentoComercial);
-                oDocCom.Ler("CCF", 3, 1, 2014, "");
+                oDocCom.Ler("CCF", 3, "1", 2014, "");
 
                 //criar novo documento contabilistico
                 oDocCtb = System.Activator.CreateInstance(objType_DocumentoContabilistico);
@@ -513,7 +513,7 @@ namespace ApiLaunchBusiness
 
                         case Publicas.e_Operacao.Alterar: 
 
-                            objDocumento.Ler("TAR", 47, 1, 2011, "");
+                            objDocumento.Ler("TAR", 47, "1", 2011, "");
 
                             objDocumento.Origem = Publicas.e_OrigemDocumento.NaoAplicavel;
 

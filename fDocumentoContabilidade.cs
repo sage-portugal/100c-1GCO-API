@@ -86,7 +86,7 @@ namespace ApiLaunchBusiness
                     {
                         objContabDoc = System.Activator.CreateInstance(objType_DocumentoContabilistico);
 
-                        objContabDoc.Ler(Text25.Text, Convert.ToInt32(Double.Parse(Text26.Text)), Convert.ToInt16(Double.Parse(Text27.Text)), (short)DateTime.Parse(Text29.Text).Year, "");
+                        objContabDoc.Ler(Text25.Text, Convert.ToInt32(Double.Parse(Text26.Text)), Text27.Text, (short)DateTime.Parse(Text29.Text).Year, "");
                        
                         oLinha = System.Activator.CreateInstance(objType_MovimentosCtb2);
 
