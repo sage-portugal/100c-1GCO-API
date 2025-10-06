@@ -32,6 +32,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            combit.Reporting.DataProviders.DataSourceConnectionProperties dataSourceConnectionProperties1 = new combit.Reporting.DataProviders.DataSourceConnectionProperties();
             this.cmdLer = new System.Windows.Forms.Button();
             this.cmdIns = new System.Windows.Forms.Button();
             this.cmdDel = new System.Windows.Forms.Button();
@@ -145,6 +147,7 @@
             this.cmdFinalizar = new System.Windows.Forms.Button();
             this.txtSystemEntryDate = new System.Windows.Forms.TextBox();
             this.panelFinalizado = new System.Windows.Forms.Panel();
+            this.txtQRCodeText = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.TxtNumeroManual = new System.Windows.Forms.TextBox();
             this.TxtSerieManual = new System.Windows.Forms.TextBox();
@@ -154,7 +157,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtATCUD = new System.Windows.Forms.TextBox();
             this.cmdImprimir = new System.Windows.Forms.Button();
-            this.txtQRCodeText = new System.Windows.Forms.TextBox();
+            this.dataSource1 = new combit.Reporting.DataProviders.DataSource(this.components);
+            this.txtDataVencimento = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Frame_Main)).BeginInit();
             this.Frame_Main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._fAdicional_2)).BeginInit();
@@ -816,6 +821,7 @@
             this.txtData.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtData.Size = new System.Drawing.Size(67, 20);
             this.txtData.TabIndex = 74;
+            this.txtData.TextChanged += new System.EventHandler(this.txtData_TextChanged);
             // 
             // Text421
             // 
@@ -1793,6 +1799,13 @@
             this.panelFinalizado.Size = new System.Drawing.Size(716, 263);
             this.panelFinalizado.TabIndex = 297;
             // 
+            // txtQRCodeText
+            // 
+            this.txtQRCodeText.Location = new System.Drawing.Point(294, 169);
+            this.txtQRCodeText.Name = "txtQRCodeText";
+            this.txtQRCodeText.Size = new System.Drawing.Size(382, 20);
+            this.txtQRCodeText.TabIndex = 305;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -1885,18 +1898,39 @@
             this.cmdImprimir.UseVisualStyleBackColor = false;
             this.cmdImprimir.Click += new System.EventHandler(this.cmdImprimir_Click);
             // 
-            // txtQRCodeText
+            // dataSource1
             // 
-            this.txtQRCodeText.Location = new System.Drawing.Point(294, 169);
-            this.txtQRCodeText.Name = "txtQRCodeText";
-            this.txtQRCodeText.Size = new System.Drawing.Size(382, 20);
-            this.txtQRCodeText.TabIndex = 305;
+            dataSourceConnectionProperties1.ConnectionString = null;
+            dataSourceConnectionProperties1.SourceType = combit.Reporting.DataProviders.DataSourceType.OleDb;
+            this.dataSource1.ConnectionProperties = dataSourceConnectionProperties1;
+            this.dataSource1.IdentifierDelimiterFormat = "[{0}]";
+            this.dataSource1.SupportedElementTypes = ((combit.Reporting.DataProviders.DbConnectionElementTypes)((combit.Reporting.DataProviders.DbConnectionElementTypes.Table | combit.Reporting.DataProviders.DbConnectionElementTypes.View)));
+            this.dataSource1.SupportsAdvancedFiltering = false;
+            // 
+            // txtDataVencimento
+            // 
+            this.txtDataVencimento.Location = new System.Drawing.Point(142, 285);
+            this.txtDataVencimento.Name = "txtDataVencimento";
+            this.txtDataVencimento.Size = new System.Drawing.Size(60, 20);
+            this.txtDataVencimento.TabIndex = 299;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(31, 288);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(104, 13);
+            this.label6.TabIndex = 300;
+            this.label6.Text = "Data Vencimento";
             // 
             // fDocumentoComercial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 671);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtDataVencimento);
             this.Controls.Add(this.cmdImprimir);
             this.Controls.Add(this.panelFinalizado);
             this.Controls.Add(this.cmdFinalizar);
@@ -1927,6 +1961,7 @@
             this.panelFinalizado.ResumeLayout(false);
             this.panelFinalizado.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2083,5 +2118,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtQRCodeText;
+        private combit.Reporting.DataProviders.DataSource dataSource1;
+        private System.Windows.Forms.TextBox txtDataVencimento;
+        private System.Windows.Forms.Label label6;
     }
 }

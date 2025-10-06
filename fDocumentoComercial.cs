@@ -381,6 +381,8 @@ namespace ApiLaunchBusiness
                     // Tipo de Sujeito Passivo de Iva
                     objDocumento.cab.SujeitoPassivo_Simplifica = 1;
 
+                    objDocumento.cab.DataVencimento = txtDataVencimento.Text;
+
                     //   *
                     //   * -----------------------------------------------------------------------------------------------
                     //   * Certificação
@@ -1226,6 +1228,11 @@ namespace ApiLaunchBusiness
                 IAR_Imprimir(newApiFormImprime.NumVias, newApiFormImprime.Modelo);
 
             }
+
+        }
+
+        private void txtData_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

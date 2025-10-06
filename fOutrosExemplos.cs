@@ -487,7 +487,7 @@ namespace ApiLaunchBusiness
                             objDocumento.cab.Data = DateTime.Today.ToString("d"); 
                             objDocumento.cab.Sector = "ANS"; 
                             objDocumento.cab.Moeda = "EUR";
-                            objDocumento.cab.TipoTerceiro = ((short) etb_TERCEIRO.cliente); 
+                            objDocumento.cab.TipoTerceiro = ((short) etb_TERCEIRO.Cliente); 
                             objDocumento.cab.Terceiro = "AR2"; 
                             objDocumento.cab.DescontoCabecalho = 0; 
                             objDocumento.cab.RegimeIva = "NAC";  							 
