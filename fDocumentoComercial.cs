@@ -433,6 +433,16 @@ namespace ApiLaunchBusiness
                     objDocumento.cab.DescontoCabecalho = Convert.ToDecimal(Text409.Text);
                     objDocumento.cab.RegimeIva = objDocumento.Terceiro.REGIVA;
 
+                    switch ((int) objDocumento.cab.TipoTerceiro)
+                    {
+                        case 1:
+                            objDocumento.cab.numerocontribuinte = objDocumento.fornecedor.ncontr;
+                            break;
+                        case 2:
+                            objDocumento.cab.numerocontribuinte = objDocumento.cliente.ncontr;
+                            break;
+                    }
+
                     objDocumento.cab.datacarga = txtData.Text;
                     objDocumento.cab.horacarga = DateTime.Now.AddHours(1).ToString("HH:mm"); 
 
