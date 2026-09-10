@@ -23,7 +23,7 @@ Os formulários foram concebidos como exemplos de integração e não como uma a
 ## Requisitos
 
 - Windows;
-- Sage 100c/1GCO ou Business compatível instalado e configurado;
+- Sage 100c/1GCO compatível instalado e configurado;
 - componentes COM utilizados pelo projeto instalados e registados no Windows;
 - .NET Framework 4.8 Developer Pack/Targeting Pack;
 - Visual Studio com as ferramentas de desenvolvimento para .NET Framework e Windows Forms;
@@ -45,13 +45,11 @@ Valores reconhecidos pelo código:
 
 | Valor | Classe base COM | Dados predefinidos |
 | --- | --- | --- |
-| `SageBGCOApi10` | `SageBGCOApi10.BaseBusiness` | Sage Business / empresa `DEMO_BGCO` |
-| `Sage1GCOApi30` | `Sage1GCOApi30.Base100C` | Sage 100c / empresa `DEMO_1GCO` |
 | `Sage1GCOApi40` | `Sage1GCOApi40.Base100C` | Sage 100c / empresa `DEMO_1GCO` |
 
 O repositório inclui um exemplo em `bin/Api.ini`. Se o ficheiro não for copiado automaticamente durante a compilação, copie-o ou crie-o junto de `ApiLaunch.exe` antes de executar a aplicação.
 
-> Os nomes `DEMO_BGCO`, `DEMO_1GCO` e as credenciais `API`/`API` são apenas valores de demonstração definidos no código. Não reutilize estas credenciais em produção.
+> Os nomes `DEMO_1GCO` e as credenciais `API`/`API` são apenas valores de demonstração definidos no código. Não reutilize estas credenciais em produção.
 
 ## Compilar e executar
 
