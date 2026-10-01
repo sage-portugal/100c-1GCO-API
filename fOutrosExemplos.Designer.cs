@@ -39,6 +39,8 @@
             this.LigGaCom = new System.Windows.Forms.CheckBox();
             this.cmbTipoPrecoStock = new System.Windows.Forms.ComboBox();
             this.Label98 = new System.Windows.Forms.Label();
+            this.cmdComunicarSerieAF = new System.Windows.Forms.Button();
+            this.cmdComunicarSerie = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmdSair
@@ -163,12 +165,34 @@
             this.Label98.Size = new System.Drawing.Size(109, 13);
             this.Label98.TabIndex = 305;
             this.Label98.Text = "Tipo preço stock:";
+            //
+            // cmdComunicarSerieAF
+            //
+            this.cmdComunicarSerieAF.Location = new System.Drawing.Point(296, 12);
+            this.cmdComunicarSerieAF.Name = "cmdComunicarSerieAF";
+            this.cmdComunicarSerieAF.Size = new System.Drawing.Size(248, 23);
+            this.cmdComunicarSerieAF.TabIndex = 306;
+            this.cmdComunicarSerieAF.Text = "Comunicar série AF";
+            this.cmdComunicarSerieAF.UseVisualStyleBackColor = true;
+            this.cmdComunicarSerieAF.Click += new System.EventHandler(this.cmdComunicarSerieAF_Click);
+            //
+            // cmdComunicarSerie
+            //
+            this.cmdComunicarSerie.Location = new System.Drawing.Point(296, 41);
+            this.cmdComunicarSerie.Name = "cmdComunicarSerie";
+            this.cmdComunicarSerie.Size = new System.Drawing.Size(248, 23);
+            this.cmdComunicarSerie.TabIndex = 307;
+            this.cmdComunicarSerie.Text = "Comunicar série";
+            this.cmdComunicarSerie.UseVisualStyleBackColor = true;
+            this.cmdComunicarSerie.Click += new System.EventHandler(this.cmdComunicarSerie_Click);
             // 
             // fOutrosExemplos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 336);
+            this.Controls.Add(this.cmdComunicarSerie);
+            this.Controls.Add(this.cmdComunicarSerieAF);
             this.Controls.Add(this.cmbTipoPrecoStock);
             this.Controls.Add(this.Label98);
             this.Controls.Add(this.LigGaCom);
@@ -198,5 +222,7 @@
         public System.Windows.Forms.CheckBox LigGaCom;
         public System.Windows.Forms.ComboBox cmbTipoPrecoStock;
         public System.Windows.Forms.Label Label98;
+        private System.Windows.Forms.Button cmdComunicarSerieAF;
+        private System.Windows.Forms.Button cmdComunicarSerie;
     }
 }

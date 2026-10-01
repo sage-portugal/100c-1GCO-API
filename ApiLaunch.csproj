@@ -99,6 +99,18 @@
     <Compile Include="fOutrosExemplos.Designer.cs">
       <DependentUpon>fOutrosExemplos.cs</DependentUpon>
     </Compile>
+    <Compile Include="fComunicarSerieAF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fComunicarSerieAF.Designer.cs">
+      <DependentUpon>fComunicarSerieAF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fComunicarSerie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fComunicarSerie.Designer.cs">
+      <DependentUpon>fComunicarSerie.cs</DependentUpon>
+    </Compile>
     <Compile Include="fPlanoContas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +165,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fOutrosExemplos.resx">
       <DependentUpon>fOutrosExemplos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fComunicarSerieAF.resx">
+      <DependentUpon>fComunicarSerieAF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fComunicarSerie.resx">
+      <DependentUpon>fComunicarSerie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fPlanoContas.resx">
       <DependentUpon>fPlanoContas.cs</DependentUpon>

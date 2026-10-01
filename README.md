@@ -17,6 +17,7 @@ Depois de estabelecer a ligação à empresa, a aplicação disponibiliza exempl
 - converter e gerar documentos em lote para clientes, fornecedores e armazéns;
 - inserir documentos e recibos a partir de XML;
 - executar exemplos adicionais, como transferências entre armazéns e integração contabilística.
+- testar a comunicação real de séries normais e de autofaturação à AT através de `WSComunicarSerie_ExternalAPI` e `WSComunicarSerieAF_ExternalAPI` (apenas `Sage1GCOApi40`).
 
 Os formulários foram concebidos como exemplos de integração e não como uma aplicação de gestão completa.
 
@@ -83,6 +84,35 @@ Fluxo recomendado:
 
 Quando a inicialização falha, a aplicação apresenta o código devolvido pela API e indica que o ficheiro de log deve ser consultado.
 
+### Testar `WSComunicarSerie_ExternalAPI`
+
+Em **Outros Exemplos**, selecione **Comunicar série**. O formulário apresenta os sete argumentos da função com valores predefinidos editáveis. O **tipo de documento da aplicação** identifica o registo local em `NOMSERIE`; o **tipo de documento SAF-T** é enviado ao serviço da AT.
+
+O tipo de série pode ser **N** (normal) ou **R** (recuperação), e o meio de processamento deve ser `PI`, `PF` ou `OM`. A combinação do tipo de documento da aplicação com a série tem de existir previamente em `NOMSERIE`.
+
+Esta operação comunica realmente com a Autoridade Tributária e exige confirmação explícita. Quando a AT aceita a série com o código `2001`, a API grava localmente o estado ativo, os códigos e a mensagem devolvidos, a data, o número inicial e o meio de processamento.
+
+Um resultado `False` pode significar rejeição pela AT ou falha posterior ao atualizar `NOMSERIE`. Verifique sempre o código e a mensagem apresentados e consulte os logs antes de repetir a operação, pois a comunicação externa pode já ter ocorrido.
+
+### Testar `WSComunicarSerieAF_ExternalAPI`
+
+Em **Outros Exemplos**, selecione **Comunicar série AF**. O formulário apresenta os onze argumentos da função, com valores predefinidos editáveis. O **tipo de documento da aplicação** identifica o registo local em `NOMSERIE`; o **tipo de documento SAF-T** é o valor enviado ao serviço da AT.
+
+Esta operação comunica realmente uma série de autofaturação à Autoridade Tributária. Confirme previamente que:
+
+- está a utilizar `Sage1GCOApi40` e a empresa se encontra aberta;
+- o subutilizador configurado no Sage tem o perfil **WSE — Comunicação e Gestão de Séries por Webservice**;
+- a combinação do tipo de documento da aplicação com a série já existe em `NOMSERIE`;
+- a série e os restantes dados pertencem a um ambiente autorizado para o teste.
+
+Antes da submissão, a aplicação apresenta todos os valores e exige confirmação explícita. No final são mostrados separadamente o resultado booleano da função, o código de retorno da AT, o código de validação e a mensagem devolvida. Quando a comunicação termina com sucesso, a API grava no registo local o estado AT ativo, a resposta da AT, a data de início, o número inicial e o meio de processamento.
+
+O resultado global apenas é `True` quando a comunicação e a atualização local terminam corretamente. Se forem apresentados dados da AT com resultado `False`, consulte os logs: a comunicação externa pode ter ocorrido e a gravação de `NOMSERIE` pode ter falhado. Não repita a comunicação sem confirmar primeiro o estado da série na AT.
+
+Na implementação atual da API 4.0, os argumentos `sTpSerie` e `sMeioProcessamento` não são encaminhados para o serviço ADS, e os valores de país e nome da entidade estrangeira são substituídos internamente por strings vazias. O formulário mantém estes campos para reproduzir a assinatura pública completa da função.
+
+Mais informação sobre a configuração do subutilizador: [Como criar subutilizador no Portal da AT para comunicação via webservice](https://pt-kb.sage.com/portal/app/portlets/results/viewsolution.jsp?solutionid=231460250001019).
+
 ## Estrutura do projeto
 
 | Ficheiro ou grupo | Responsabilidade |
@@ -95,6 +125,8 @@ Quando a inicialização falha, a aplicação apresenta o código devolvido pela
 | `fDocumentoComercial.cs`, `fDocumentoRecibo.cs`, `fDocumentoContabilidade.cs` | Exemplos de documentos comerciais, financeiros e contabilísticos |
 | `fGerarDocumentos.cs` | Geração de documentos em lote |
 | `fOutrosExemplos.cs` | XML, transferências de armazém e outros cenários de integração |
+| `fComunicarSerie.cs` | Teste manual da comunicação de séries normais à AT |
+| `fComunicarSerieAF.cs` | Teste manual da comunicação de séries de autofaturação à AT |
 
 As classes Sage são instanciadas através de identificadores COM (`ProgID`) e usadas como objetos `dynamic`. A API selecionada no `Api.ini` determina os nomes das classes COM usados em tempo de execução. Consequentemente, erros de nome ou componentes não registados podem ocorrer antes de a janela principal conseguir estabelecer a ligação.
 

@@ -176,6 +176,36 @@ namespace ApiLaunchBusiness
             this.Close();
         }
 
+        private void cmdComunicarSerieAF_Click(object sender, EventArgs e)
+        {
+            if (!String.Equals(Publicas.dynamicSageApiName(), "Sage1GCOApi40", StringComparison.Ordinal))
+            {
+                MessageBox.Show("Este exemplo está disponível apenas para Sage1GCOApi40.", Application.ProductName,
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            using (fComunicarSerieAF formulario = new fComunicarSerieAF())
+            {
+                formulario.ShowDialog(this);
+            }
+        }
+
+        private void cmdComunicarSerie_Click(object sender, EventArgs e)
+        {
+            if (!String.Equals(Publicas.dynamicSageApiName(), "Sage1GCOApi40", StringComparison.Ordinal))
+            {
+                MessageBox.Show("Este exemplo está disponível apenas para Sage1GCOApi40.", Application.ProductName,
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            using (fComunicarSerie formulario = new fComunicarSerie())
+            {
+                formulario.ShowDialog(this);
+            }
+        }
+
 
 
            //
